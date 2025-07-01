@@ -1,6 +1,7 @@
 import { z } from "zod";
 import type { TrendingContentFormatter } from "../formatters/trendingContentFormatter.js";
 import type { TrendingContentService } from "../services/trendingContentService.js";
+import { validateHyperFeedApiKey } from "../utils/index.js";
 
 export const getTrendingContentToolDefinition = {
 	title: "Get Trending Social Content",
@@ -24,6 +25,7 @@ export const getTrendingContentHandler =
 	(
 		trendingContentService: TrendingContentService,
 		trendingContentFormatter: TrendingContentFormatter,
+		apiKey?: string,
 	) =>
 	async ({
 		networks = "twitter",
@@ -37,6 +39,7 @@ export const getTrendingContentHandler =
 			const data = await trendingContentService.fetchTrendingContent({
 				networks,
 				limit,
+				apiKey,
 			});
 
 			// Format the response using the formatter service
@@ -63,3 +66,33 @@ export const getTrendingContentHandler =
 			};
 		}
 	};
+
+// Create a wrapper for the trending content handler that includes JWT validation
+export const createValidatedTrendingContentHandler = (
+	trendingContentService: TrendingContentService,
+	trendingContentFormatter: TrendingContentFormatter,
+	apiKey?: string
+) => {
+	return async (request: any) => {
+		console.log('get-trending-content tool called with request:', request);
+		
+		if (!apiKey) {
+			console.log('No HyperFeed API key provided');
+			throw new Error(
+				'HyperFeed API key is required to use the get-trending-content tool. ' +
+				'Please create an API key at https://app.hyperfeed.ai and update your Smithery profile with the newly created API key.'
+			);
+		}
+		
+		console.log('Validating API key...');
+		const isValidKey = await validateHyperFeedApiKey(apiKey);
+		if (!isValidKey) {
+			console.error('JWT validation failed - throwing error');
+			throw new Error('The provided API key is invalid. ' +
+				'Please create an API key at https://app.hyperfeed.ai and update your Smithery profile with the newly created API key.');
+		}
+		
+		console.log('JWT validation successful - calling original handler');
+		return getTrendingContentHandler(trendingContentService, trendingContentFormatter, apiKey)(request);
+	};
+};

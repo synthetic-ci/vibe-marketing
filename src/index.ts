@@ -40,6 +40,7 @@ import {
 	getTextBeforeFoldToolDefinition,
 	getTrendingContentHandler,
 	getTrendingContentToolDefinition,
+	createValidatedTrendingContentHandler,
 	listArchetypesHandler,
 	listArchetypesToolDefinition,
 	listCopywritingFrameworksHandler,
@@ -47,9 +48,6 @@ import {
 	validateContentBeforeFoldHandler,
 	validateContentBeforeFoldToolDefinition,
 } from "./tools/index.js";
-import type { UserProps } from "./types/auth";
-import { jwtVerify, createRemoteJWKSet } from 'jose';
-
 // Init services
 const hookSearchService = new HookSearchService(hooksData);
 const trendingContentService = new TrendingContentService();
@@ -71,61 +69,7 @@ export const configSchema = z.object({
   hyperFeedApiKey: z.string().optional().describe("Your HyperFeed API key (optional)"),
 });
 
-const HYPERFEED_JWKS = createRemoteJWKSet(
-  new URL('https://clerk.hyperfeed.ai/.well-known/jwks.json')
-);
 
-const CLERK_JWKS = createRemoteJWKSet(
-  new URL('https://just-elephant-42.clerk.accounts.dev/.well-known/jwks.json')
-);
-
-async function validateHyperFeedApiKey(token: string): Promise<boolean> {
-  // Try validating with HyperFeed JWKS first
-  try {
-    const { payload } = await jwtVerify(token, HYPERFEED_JWKS, {
-      issuer: 'https://clerk.hyperfeed.ai',
-      audience: 'hyperfeed.ai/api'
-    });
-	console.log('HyperFeed JWKS validation successful');
-	console.log(payload);
-    return true;
-  } catch (hyperFeedError) {
-    console.debug('HyperFeed JWKS validation failed, trying alternative endpoint:', hyperFeedError);
-  }
-
-  // Try validating with alternative Clerk JWKS
-  try {
-    const { payload } = await jwtVerify(token, CLERK_JWKS, {
-      issuer: 'https://just-elephant-42.clerk.accounts.dev',
-      audience: 'hyperfeed.ai/api'
-    });
-	console.log('Clerk JWKS validation successful');
-	console.log(payload);
-    return true;
-  } catch (clerkError) {
-    console.debug('Alternative Clerk JWKS validation failed:', clerkError);
-  }
-
-  console.error('HyperFeed API key validation failed with both JWKS endpoints');
-  return false;
-}
-
-// Create a wrapper for the find hooks handler that includes JWT validation
-function createValidatedFindHooksHandler(hookSearchService: any, apiKey: string) {
-  return async (request: any) => {
-    console.log('find-hooks tool called with request:', request);
-    console.log('Validating API key...');
-    
-    const isValidKey = await validateHyperFeedApiKey(apiKey);
-    if (!isValidKey) {
-      console.error('JWT validation failed - throwing error');
-      throw new Error('Invalid HyperFeed API key');
-    }
-    
-    console.log('JWT validation successful - calling original handler');
-    return findHooksHandler(hookSearchService)(request);
-  };
-}
 
 export default function createStatelessServer({
   config,
@@ -133,7 +77,7 @@ export default function createStatelessServer({
   config: z.infer<typeof configSchema>;
 }) {
   const server = new McpServer({
-    name: "My MCP Server",
+    name: "Vibe Marketing MCP (HyperFeed.ai)",
     version: "1.0.0",
   });
 
@@ -143,17 +87,12 @@ export default function createStatelessServer({
     apiKeyLength: config.hyperFeedApiKey?.length 
   });
 
-  // Hooks tools - register find-hooks with JWT validation
-  if (config.hyperFeedApiKey) {
-    console.log('Registering find-hooks tool with API key validation');
-    server.registerTool(
-      "find-hooks",
-      findHooksToolDefinition,
-      createValidatedFindHooksHandler(hookSearchService, config.hyperFeedApiKey),
-    );
-  } else {
-    console.log('No HyperFeed API key provided - find-hooks tool will not be available');
-  }
+  // Hooks tools - register find-hooks without API key validation
+  server.registerTool(
+    "find-hooks",
+    findHooksToolDefinition,
+    findHooksHandler(hookSearchService),
+  );
 
   server.registerTool(
     "get-network-categories-for-hooks",
@@ -206,12 +145,53 @@ export default function createStatelessServer({
     getTextBeforeFoldHandler(truncatedTextFormatter),
   );
 
-  // Trending content tool
+  // Trending content tool - register with API key validation
   server.registerTool(
     "get-trending-content",
     getTrendingContentToolDefinition,
-    getTrendingContentHandler(trendingContentService, trendingContentFormatter),
+    createValidatedTrendingContentHandler(trendingContentService, trendingContentFormatter, config.hyperFeedApiKey),
   );
+
+  // ------------------------------------------------------------
+		// Resources
+		// ------------------------------------------------------------
+
+		// Phrases to avoid resources
+		const phrasesToAvoidResource = createPhrasesToAvoidResource(doNotUseData);
+		server.registerResource(
+			"phrases-to-avoid",
+			phrasesToAvoidResource.uri,
+			phrasesToAvoidResource.metadata,
+			phrasesToAvoidResource.handler,
+		);
+
+		// Register resource for social media hooks
+		const socialMediaHooksResource = createSocialMediaHooksResource(hooksData);
+		server.registerResource(
+			"social-media-hooks",
+			socialMediaHooksResource.uri,
+			socialMediaHooksResource.metadata,
+			socialMediaHooksResource.handler,
+		);
+
+		// ------------------------------------------------------------
+		// Prompts
+		// ------------------------------------------------------------
+
+		const socialMediaHooksPrompt = findSocialMediaHooksPrompt(hooksData);
+		server.registerPrompt(
+			socialMediaHooksPrompt.name,
+			socialMediaHooksPrompt.definition,
+			socialMediaHooksPrompt.handler,
+		);
+
+		const copywritingFrameworkPrompt =
+			getCopywritingFrameworkPrompt(copywritingService);
+		server.registerPrompt(
+			copywritingFrameworkPrompt.name,
+			copywritingFrameworkPrompt.definition,
+			copywritingFrameworkPrompt.handler,
+		);
 
   return server.server;
 }

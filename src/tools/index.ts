@@ -24,6 +24,7 @@ export {
 export {
 	getTrendingContentHandler,
 	getTrendingContentToolDefinition,
+	createValidatedTrendingContentHandler,
 } from "./getTrendingContentTool.js";
 export {
 	listArchetypesHandler,
