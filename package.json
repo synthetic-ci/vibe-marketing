@@ -1,7 +1,7 @@
 {
 	"name": "smithery-scaffold",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Vibe Marketing MCP Tools",
 	"main": "index.js",
 	"module": "./src/index.ts",
 	"type": "module",
