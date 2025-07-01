@@ -1,4 +1,4 @@
-import { beforeEach, describe, it, vi, expect as vitestExpected } from "vitest";
+import { describe, it, expect as vitestExpected } from "vitest";
 
 // biome-ignore lint: any type is needed for test compatibility
 const expect = vitestExpected as any;
@@ -85,7 +85,7 @@ describe("findSocialMediaHooksPrompt", () => {
 	describe("network completable", () => {
 		it("should return filtered networks based on input", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const networkCompletable = prompt.definition.argsSchema.network as any;
+			const networkCompletable = prompt.definition.argsSchema.network;
 
 			if (
 				typeof networkCompletable === "object" &&
@@ -98,7 +98,7 @@ describe("findSocialMediaHooksPrompt", () => {
 
 		it("should return all networks when no input provided", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const networkCompletable = prompt.definition.argsSchema.network as any;
+			const networkCompletable = prompt.definition.argsSchema.network;
 
 			if (
 				typeof networkCompletable === "object" &&
@@ -111,7 +111,7 @@ describe("findSocialMediaHooksPrompt", () => {
 
 		it("should return case-insensitive matches", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const networkCompletable = prompt.definition.argsSchema.network as any;
+			const networkCompletable = prompt.definition.argsSchema.network;
 
 			if (
 				typeof networkCompletable === "object" &&
@@ -124,7 +124,7 @@ describe("findSocialMediaHooksPrompt", () => {
 
 		it("should return empty array when no matches found", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const networkCompletable = prompt.definition.argsSchema.network as any;
+			const networkCompletable = prompt.definition.argsSchema.network;
 
 			if (
 				typeof networkCompletable === "object" &&
@@ -139,7 +139,7 @@ describe("findSocialMediaHooksPrompt", () => {
 	describe("category completable", () => {
 		it("should return global categories when no network selected", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const categoryCompletable = prompt.definition.argsSchema.category as any;
+			const categoryCompletable = prompt.definition.argsSchema.category;
 
 			if (
 				typeof categoryCompletable === "object" &&
@@ -156,7 +156,7 @@ describe("findSocialMediaHooksPrompt", () => {
 
 		it("should return merged categories when network is selected", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const categoryCompletable = prompt.definition.argsSchema.category as any;
+			const categoryCompletable = prompt.definition.argsSchema.category;
 
 			if (
 				typeof categoryCompletable === "object" &&
@@ -175,7 +175,7 @@ describe("findSocialMediaHooksPrompt", () => {
 
 		it("should include network-specific categories not in global", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const categoryCompletable = prompt.definition.argsSchema.category as any;
+			const categoryCompletable = prompt.definition.argsSchema.category;
 
 			if (
 				typeof categoryCompletable === "object" &&
@@ -191,7 +191,7 @@ describe("findSocialMediaHooksPrompt", () => {
 
 		it("should filter categories based on input", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const categoryCompletable = prompt.definition.argsSchema.category as any;
+			const categoryCompletable = prompt.definition.argsSchema.category;
 
 			if (
 				typeof categoryCompletable === "object" &&
@@ -206,7 +206,7 @@ describe("findSocialMediaHooksPrompt", () => {
 
 		it("should be case-insensitive", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const categoryCompletable = prompt.definition.argsSchema.category as any;
+			const categoryCompletable = prompt.definition.argsSchema.category;
 
 			if (
 				typeof categoryCompletable === "object" &&
@@ -219,7 +219,7 @@ describe("findSocialMediaHooksPrompt", () => {
 
 		it("should handle network not in data", () => {
 			const prompt = findSocialMediaHooksPrompt(mockHooksData);
-			const categoryCompletable = prompt.definition.argsSchema.category as any;
+			const categoryCompletable = prompt.definition.argsSchema.category;
 
 			if (
 				typeof categoryCompletable === "object" &&
@@ -243,7 +243,7 @@ describe("findSocialMediaHooksPrompt", () => {
 			};
 
 			const prompt = findSocialMediaHooksPrompt(hooksDataWithoutGlobal);
-			const categoryCompletable = prompt.definition.argsSchema.category as any;
+			const categoryCompletable = prompt.definition.argsSchema.category;
 
 			if (
 				typeof categoryCompletable === "object" &&
@@ -437,7 +437,7 @@ describe("findSocialMediaHooksPrompt", () => {
 			};
 
 			const prompt = findSocialMediaHooksPrompt(partialHooksData);
-			const categoryCompletable = prompt.definition.argsSchema.category as any;
+			const categoryCompletable = prompt.definition.argsSchema.category;
 
 			if (
 				typeof categoryCompletable === "object" &&

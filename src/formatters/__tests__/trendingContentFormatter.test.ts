@@ -352,10 +352,9 @@ describe("TrendingContentFormatter", () => {
 		});
 
 		it("should handle unexpected response format", () => {
-			// biome-ignore lint/suspicious/noExplicitAny: Testing unexpected response format
 			const mockResponse = {
 				unexpected: "format",
-			} as any;
+			} as unknown as TrendingResponse;
 
 			const result = formatter.formatTrendingResponse(mockResponse);
 

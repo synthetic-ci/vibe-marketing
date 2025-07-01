@@ -1,1 +1,1 @@
-export { validateHyperFeedApiKey } from "./apiValidation.js"; 
+export { validateHyperFeedApiKey } from "./apiValidation.js";

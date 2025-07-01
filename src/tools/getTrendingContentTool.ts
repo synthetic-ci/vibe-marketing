@@ -71,28 +71,34 @@ export const getTrendingContentHandler =
 export const createValidatedTrendingContentHandler = (
 	trendingContentService: TrendingContentService,
 	trendingContentFormatter: TrendingContentFormatter,
-	apiKey?: string
+	apiKey?: string,
 ) => {
-	return async (request: any) => {
-		console.log('get-trending-content tool called with request:', request);
-		
+	return async (request: unknown) => {
+		console.log("get-trending-content tool called with request:", request);
+
 		if (!apiKey) {
-			console.log('No HyperFeed API key provided');
+			console.log("No HyperFeed API key provided");
 			throw new Error(
-				'HyperFeed API key is required to use the get-trending-content tool. ' +
-				'Please create an API key at https://app.hyperfeed.ai and update your Smithery profile with the newly created API key.'
+				"HyperFeed API key is required to use the get-trending-content tool. " +
+					"Please create an API key at https://app.hyperfeed.ai and update your Smithery profile with the newly created API key.",
 			);
 		}
-		
-		console.log('Validating API key...');
+
+		console.log("Validating API key...");
 		const isValidKey = await validateHyperFeedApiKey(apiKey);
 		if (!isValidKey) {
-			console.error('JWT validation failed - throwing error');
-			throw new Error('The provided API key is invalid. ' +
-				'Please create an API key at https://app.hyperfeed.ai and update your Smithery profile with the newly created API key.');
+			console.error("JWT validation failed - throwing error");
+			throw new Error(
+				"The provided API key is invalid. " +
+					"Please create an API key at https://app.hyperfeed.ai and update your Smithery profile with the newly created API key.",
+			);
 		}
-		
-		console.log('JWT validation successful - calling original handler');
-		return getTrendingContentHandler(trendingContentService, trendingContentFormatter, apiKey)(request);
+
+		console.log("JWT validation successful - calling original handler");
+		return getTrendingContentHandler(
+			trendingContentService,
+			trendingContentFormatter,
+			apiKey,
+		)(request as { networks?: string; limit?: number });
 	};
 };

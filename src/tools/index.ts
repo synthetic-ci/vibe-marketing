@@ -22,9 +22,9 @@ export {
 	getTextBeforeFoldToolDefinition,
 } from "./getTextBeforeFoldTool.js";
 export {
+	createValidatedTrendingContentHandler,
 	getTrendingContentHandler,
 	getTrendingContentToolDefinition,
-	createValidatedTrendingContentHandler,
 } from "./getTrendingContentTool.js";
 export {
 	listArchetypesHandler,

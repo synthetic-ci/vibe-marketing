@@ -276,6 +276,7 @@ describe("CopywritingService", () => {
 			const mockDataWithoutFormatting: CopywritingData = {
 				test: {
 					name: "Test Network",
+					// biome-ignore lint/style/noNonNullAssertion: this is a test
 					aida: mockCopywritingData.twitter.aida!,
 				},
 			};

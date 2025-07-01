@@ -70,9 +70,7 @@ export function getCopywritingFrameworkPrompt(
 							allFrameworks.add(fw);
 						});
 					});
-					return (
-						"Available frameworks: " + Array.from(allFrameworks).join(", ")
-					);
+					return `Available frameworks: ${Array.from(allFrameworks).join(", ")}`;
 				}
 
 				// Try to get framework info from the selected network first, then fall back to any network
@@ -92,7 +90,7 @@ export function getCopywritingFrameworkPrompt(
 					}
 				}
 
-				if (frameworkInfo && frameworkInfo.title) {
+				if (frameworkInfo?.title) {
 					const components = frameworkInfo.components || [];
 					const componentSummary = components
 						.map((comp: { name: string }) => comp.name)

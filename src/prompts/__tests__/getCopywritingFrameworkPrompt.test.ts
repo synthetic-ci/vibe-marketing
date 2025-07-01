@@ -83,7 +83,7 @@ describe("getCopywritingFrameworkPrompt", () => {
 			]);
 
 			const prompt = getCopywritingFrameworkPrompt(mockCopywritingService);
-			const networkCompletable = prompt.definition.argsSchema.network as any;
+			const networkCompletable = prompt.definition.argsSchema.network;
 
 			if (
 				typeof networkCompletable === "object" &&
@@ -102,7 +102,7 @@ describe("getCopywritingFrameworkPrompt", () => {
 			]);
 
 			const prompt = getCopywritingFrameworkPrompt(mockCopywritingService);
-			const networkCompletable = prompt.definition.argsSchema.network as any;
+			const networkCompletable = prompt.definition.argsSchema.network;
 
 			if (
 				typeof networkCompletable === "object" &&
@@ -123,8 +123,7 @@ describe("getCopywritingFrameworkPrompt", () => {
 			]);
 
 			const prompt = getCopywritingFrameworkPrompt(mockCopywritingService);
-			const frameworkCompletable = prompt.definition.argsSchema
-				.framework as any;
+			const frameworkCompletable = prompt.definition.argsSchema.framework;
 
 			if (
 				typeof frameworkCompletable === "object" &&
@@ -151,8 +150,7 @@ describe("getCopywritingFrameworkPrompt", () => {
 				.mockReturnValueOnce(["aida", "bab"]);
 
 			const prompt = getCopywritingFrameworkPrompt(mockCopywritingService);
-			const frameworkCompletable = prompt.definition.argsSchema
-				.framework as any;
+			const frameworkCompletable = prompt.definition.argsSchema.framework;
 
 			if (
 				typeof frameworkCompletable === "object" &&

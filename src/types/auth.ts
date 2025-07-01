@@ -6,8 +6,6 @@ export interface TokenSet {
 }
 
 export interface UserProps extends Record<string, unknown> {
-	claims: Record<string, any>;
+	claims: Record<string, unknown>;
 	tokenSet: TokenSet;
 }
-
-
