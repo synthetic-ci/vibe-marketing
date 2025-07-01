@@ -2,6 +2,7 @@ import { z } from "zod";
 import type { HookSearchService } from "../services/hookSearchService.js";
 
 export const findHooksToolDefinition = {
+	name: "find-hooks",
 	title: "Find Social Media Hooks",
 	description: "Find social media hooks by network and/or category",
 	inputSchema: {

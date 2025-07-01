@@ -1,41 +1,39 @@
 // Import YAML files using Node.js fs module
 import { readFileSync } from "fs";
 import { join, dirname } from "path";
+import { fileURLToPath } from "url";
 import type { ArchetypeData } from "../types/archetypes.js";
 import type { CopywritingData, GeneralRules } from "../types/copywriting.js";
 import type { HookData } from "../types/hooks.js";
 import type { DoNotUseData } from "../types/humanizing.js";
 import { parse as parseYaml } from "yaml";
 
-// Get current directory - works in both CommonJS and ESM after bundling
+// Get current directory - use process.cwd() as base for bundled environment
 const getCurrentDir = () => {
-	// In bundled CommonJS environment, __dirname will be available
-	if (typeof __dirname !== 'undefined') {
-		return __dirname;
-	}
-	// Fallback for ESM environment
-	return dirname(new URL(import.meta.url).pathname);
+	// In bundled/CJS environment, use process.cwd() and navigate to src
+	return process.cwd();
 };
 
 // Helper function to load and parse YAML files
 function loadYamlFile(relativePath: string): any {
 	const currentDir = getCurrentDir();
+	// Use direct path from project root
 	const filePath = join(currentDir, relativePath);
 	const content = readFileSync(filePath, 'utf-8');
 	return parseYaml(content);
 }
 
-// Load YAML files (paths relative to .smithery directory where bundled code runs)
-const hooksYaml = loadYamlFile("../src/content/hooks/social-media-hooks.yml");
-const archetypesYaml = loadYamlFile("../src/content/voicing/archetypes.yml");
-const facebookCopywritingYaml = loadYamlFile("../src/content/copywriting/facebook.yml");
-const generalCopywritingYaml = loadYamlFile("../src/content/copywriting/general.yml");
-const instagramCopywritingYaml = loadYamlFile("../src/content/copywriting/instagram.yml");
-const linkedinCopywritingYaml = loadYamlFile("../src/content/copywriting/linkedin.yml");
-const tiktokCopywritingYaml = loadYamlFile("../src/content/copywriting/tiktok.yml");
-const twitterCopywritingYaml = loadYamlFile("../src/content/copywriting/twitter.yml");
-const youtubeCopywritingYaml = loadYamlFile("../src/content/copywriting/youtube.yml");  
-const doNotUseYaml = loadYamlFile("../src/content/humanizing/doNotuse.yml");
+// Load YAML files (paths relative to project root)
+const hooksYaml = loadYamlFile("src/content/hooks/social-media-hooks.yml");
+const archetypesYaml = loadYamlFile("src/content/voicing/archetypes.yml");
+const facebookCopywritingYaml = loadYamlFile("src/content/copywriting/facebook.yml");
+const generalCopywritingYaml = loadYamlFile("src/content/copywriting/general.yml");
+const instagramCopywritingYaml = loadYamlFile("src/content/copywriting/instagram.yml");
+const linkedinCopywritingYaml = loadYamlFile("src/content/copywriting/linkedin.yml");
+const tiktokCopywritingYaml = loadYamlFile("src/content/copywriting/tiktok.yml");
+const twitterCopywritingYaml = loadYamlFile("src/content/copywriting/twitter.yml");
+const youtubeCopywritingYaml = loadYamlFile("src/content/copywriting/youtube.yml");  
+const doNotUseYaml = loadYamlFile("src/content/humanizing/doNotuse.yml");
 
 // Parse YAML files once at module load to avoid repeated work per invocation
 export const hooksData: HookData = hooksYaml as HookData;
