@@ -1,0 +1,330 @@
+youtube:
+    name: "YouTube"
+    
+    aida:
+      title: "AIDA Framework for YouTube"
+      components:
+        - name: "Attention (Thumbnail + Title + Hook)"
+          purpose: "Get clicks and prevent early drop-off."
+          format: "Compelling thumbnail + benefit-driven title + strong video opening."
+          examples:
+            - "How I Built a 6-Figure Business in 90 Days (Full Strategy Revealed)"
+            - "The Productivity Method That Changed My Life (And Can Change Yours)"
+            - "I Tested 50 Morning Routines - Here's What Actually Works"
+          note: "Thumbnail and title must work together; first 15 seconds are critical for retention."
+        
+        - name: "Interest (Problem + Credibility)"
+          purpose: "Establish relevance and build trust with viewers."
+          format: "Define the problem and establish your authority to solve it."
+          examples:
+            - "If you're struggling to stay productive while working from home, you're not alone. I've spent 5 years testing every system..."
+            - "Most people fail at building habits because they're missing this one crucial element. As someone who went from zero discipline to..."
+            - "The traditional advice about time management is broken. After helping 10,000+ entrepreneurs..."
+          note: "Balance relatability with credibility; preview what viewers will learn."
+        
+        - name: "Desire (Solution + Proof)"
+          purpose: "Present the solution and demonstrate its effectiveness."
+          format: "Step-by-step solution with evidence, case studies, or demonstrations."
+          examples:
+            - "This exact framework helped me go from working 80-hour weeks to 30 hours while doubling my income..."
+            - "Let me show you the before and after results from three different clients who used this method..."
+            - "In the next 10 minutes, I'll walk you through each step of this system that's generated over 2 million in revenue..."
+          note: "Provide concrete evidence and break down complex concepts into digestible steps."
+        
+        - name: "Action (Subscribe + Engage)"
+          purpose: "Build long-term audience and encourage engagement."
+          format: "Subscription pitch + engagement request + next video preview."
+          examples:
+            - "If this helped you, subscribe for weekly strategies like this. And let me know in the comments what you'll implement first."
+            - "Hit subscribe if you want more unconventional business advice, and check out this video where I reveal..."
+            - "Before you go, subscribe for more productivity content and tell me in the comments: what's your biggest time management challenge?"
+          note: "Don't wait until the end - weave subscribe reminders throughout the video."
+    
+    bab:
+      title: "BAB Framework for YouTube"
+      components:
+        - name: "Before"
+          purpose: "Establish the problem or current painful state."
+          format: "Detailed description of the struggle with relatable context."
+          examples:
+            - "Before: I was working 80-hour weeks, constantly stressed, and my personal life was non-existent. Sound familiar?"
+            - "Before: My YouTube channel was stuck at 500 subscribers for 8 months despite posting consistently."
+            - "Before: I tried every productivity system out there and still felt overwhelmed and behind."
+          note: "Use detailed storytelling and specific examples to build connection."
+        
+        - name: "After"
+          purpose: "Paint a detailed picture of the transformation and results."
+          format: "Comprehensive outcome with specific metrics and lifestyle changes."
+          examples:
+            - "After: I now work 30 hours per week, have complete control of my schedule, and spend quality time with my family every day."
+            - "After: In 6 months, I grew from 500 to 50,000 subscribers and turned it into a full-time income."
+            - "After: I have a system that keeps me organized, focused, and ahead of my goals without feeling stressed."
+          note: "Include specific numbers, timeframes, and tangible lifestyle improvements."
+        
+        - name: "Bridge"
+          purpose: "Present the comprehensive solution or method."
+          format: "Detailed explanation of the system, strategy, or approach."
+          examples:
+            - "Bridge: In this video, I'll walk you through the exact 5-step system I use to maximize productivity while protecting my personal time."
+            - "Bridge: Today I'm sharing the complete YouTube growth strategy that took me from struggling creator to full-time entrepreneur."
+            - "Bridge: I'm going to teach you the productivity framework that eliminated my overwhelm and doubled my output."
+          note: "Preview the comprehensive solution you'll deliver in the video content."
+      
+    4cs:
+      title: "4 Cs Quality-Check Framework for YouTube"
+      components:
+        - name: "Clear"
+          purpose: "Ensure complex topics are easily digestible."
+          format: "Structured explanations with visual aids."
+          examples:
+            - "Use timestamps for different sections and topics"
+            - "Repeat key points throughout longer videos"
+            - "Visual aids: charts, graphics, text overlays for clarity"
+          note: "Long-form content requires extra clarity to maintain engagement."
+        
+        - name: "Concise"
+          purpose: "Respect viewer time even in long-form content."
+          format: "Efficient pacing without unnecessary filler."
+          examples:
+            - "Cut 'umms', long pauses, and repeated information"
+            - "Use jump cuts to maintain energy and pace"
+            - "Get to promised value quickly, then elaborate"
+          note: "Even 20-minute videos can feel too long if not concise."
+        
+        - name: "Compelling"
+          purpose: "Maintain interest throughout longer content."
+          format: "Varied pacing with multiple hooks and payoffs."
+          examples:
+            - "Preview compelling points: 'At minute 8, I'll show you...'"
+            - "Story arcs: setup, tension, resolution throughout video"
+            - "Visual variety: different shots, B-roll, graphics"
+          note: "Compelling YouTube content keeps viewers watching until the end."
+        
+        - name: "Credible"
+          purpose: "Establish long-term authority and trust."
+          format: "Detailed evidence and transparent expertise."
+          examples:
+            - "Cite sources and show research in description"
+            - "Share detailed case studies and real results"
+            - "Address counterarguments and limitations honestly"
+          note: "YouTube authority is built through consistent, credible content."
+      
+    uuuu:
+      title: "4 U's Framework for YouTube"
+      components:
+        - name: "Urgent"
+          purpose: "Create time-sensitive motivation to watch now."
+          format: "Deadline-driven language that prevents procrastination."
+          examples:
+            - "Only 48 hours left to grab this free course before it goes paid"
+            - "This strategy stops working after 2024 - here's why"
+            - "Breaking: New algorithm change affects all creators (watch before you post again)"
+          note: "Use genuine urgency; false scarcity damages long-term trust."
+        
+        - name: "Useful"
+          purpose: "Promise clear, actionable value viewers can immediately apply."
+          format: "Specific benefit or solution to a common problem."
+          examples:
+            - "Get 10,000 views in 30 days with this simple content formula"
+            - "Turn your expertise into $5K/month passive income"
+            - "Double your productivity with this 5-minute morning routine"
+          note: "Focus on practical outcomes viewers can achieve after watching."
+        
+        - name: "Unique"
+          purpose: "Differentiate from similar content in the space."
+          format: "Uncommon angle, personal story, or contrarian perspective."
+          examples:
+            - "Why I quit the productivity guru advice and tripled my output"
+            - "The YouTube growth hack nobody talks about (but should)"
+            - "I tried every morning routine - this unconventional one actually worked"
+          note: "Highlight what makes your approach different from mainstream advice."
+        
+        - name: "Ultra-specific"
+          purpose: "Use precise details that build credibility and curiosity."
+          format: "Exact numbers, timeframes, and specific methodologies."
+          examples:
+            - "The 47-word email that generated $127,000 in sales"
+            - "How I gained 50,000 subscribers using exactly 3 video types"
+            - "The 8-minute daily routine that transformed my business in 90 days"
+          note: "Specific details make promises more believable and compelling."
+    
+    pppp:
+      title: "4 P's Framework for YouTube"
+      components:
+        - name: "Picture"
+          purpose: "Set the scene and create visual context for the problem."
+          format: "Paint a clear scenario viewers can immediately relate to."
+          examples:
+            - "Picture this: You're staring at a blank screen, deadline approaching, and you have no idea what to create"
+            - "Imagine opening your YouTube analytics and seeing 10x more views than last month"
+            - "Picture yourself confidently presenting to a room full of investors, knowing your pitch is perfect"
+          note: "Use vivid imagery that helps viewers visualize themselves in the situation."
+        
+        - name: "Promise"
+          purpose: "State the specific transformation or outcome you'll deliver."
+          format: "Clear commitment about what viewers will gain from watching."
+          examples:
+            - "By the end of this video, you'll have a content system that eliminates creative blocks forever"
+            - "I'm going to show you the exact formula that 10x'd my channel growth"
+            - "You'll walk away with a pitch template that's already secured $2M in funding"
+          note: "Make promises you can deliver on; be specific about the outcome."
+        
+        - name: "Proof"
+          purpose: "Provide evidence that your solution actually works."
+          format: "Concrete results, testimonials, or case studies."
+          examples:
+            - "This system helped 2,847 creators overcome writer's block and post consistently"
+            - "Here are the actual analytics showing my growth from 500 to 500K subscribers"
+            - "Three of my clients used this pitch to raise over $5M combined"
+          note: "Use specific numbers and real results to build credibility."
+        
+        - name: "Push"
+          purpose: "Drive immediate action and engagement."
+          format: "Clear call-to-action for next steps."
+          examples:
+            - "Comment 'SYSTEM' if you want my free content planning template"
+            - "Subscribe and hit the bell - I'm dropping advanced strategies every Tuesday"
+            - "Try this method this week and let me know your results in the comments"
+          note: "Make the next step clear and easy to follow."
+    
+    slap:
+      title: "SLAP Framework for YouTube"
+      components:
+        - name: "Stop"
+          purpose: "Interrupt the scroll and grab immediate attention."
+          format: "Pattern interrupt or bold statement that breaks viewer's mindless consumption."
+          examples:
+            - "STOP what you're doing - this changes everything about YouTube growth"
+            - "Hold up - everyone's been doing content marketing completely wrong"
+            - "Wait, before you skip this video - I'm about to save you years of mistakes"
+          note: "Use commanding language but avoid being overly aggressive or clickbaity."
+        
+        - name: "Look"
+          purpose: "Direct attention to compelling evidence or insight."
+          format: "Present proof, data, or revelation that validates the stop moment."
+          examples:
+            - "Look at these analytics: one simple change 10x'd my engagement rate"
+            - "Check this out: 3 creators used this exact method to hit 100K in 6 months"
+            - "See this graph? It shows why 80% of YouTube channels fail in their first year"
+          note: "Use visual elements, screen recordings, or data to support your claims."
+        
+        - name: "Act"
+          purpose: "Provide immediate, actionable step viewers can take."
+          format: "Simple, specific action that creates momentum."
+          examples:
+            - "Act now: pause this video and write down your top 3 content pillars"
+            - "Here's what to do: go to your last 5 videos and check this one metric"
+            - "Take action: implement this hook formula in your next video"
+          note: "Make the action simple enough to do immediately, not overwhelming."
+        
+        - name: "Purchase"
+          purpose: "Present the next-level solution or deeper engagement opportunity."
+          format: "Soft sell that provides additional value beyond the free content."
+          examples:
+            - "Want the complete system? I've got a free masterclass linked below"
+            - "Ready to go deeper? My course has 47 more strategies like this"
+            - "If this helped, you'll love my weekly newsletter with advanced tactics"
+          note: "Focus on additional value rather than hard selling; build trust first."
+    
+    app:
+      title: "APP Framework for YouTube"
+      components:
+        - name: "Awareness"
+          purpose: "Acknowledge what viewers already believe or think they know."
+          format: "Start with conventional wisdom or common assumptions."
+          examples:
+            - "Everyone knows that long YouTube videos perform better for watch time"
+            - "We all believe that posting daily is the key to YouTube growth"
+            - "Most creators think you need expensive equipment to succeed on YouTube"
+          note: "Meet viewers where they are before challenging their assumptions."
+        
+        - name: "Problem"
+          purpose: "Reveal the flaw or limitation in conventional thinking."
+          format: "Present data, experience, or insight that contradicts the common belief."
+          examples:
+            - "But here's the problem: long videos with poor retention actually hurt your channel"
+            - "The issue is that daily posting without strategy leads to burnout and declining quality"
+            - "Here's what's wrong with that: expensive gear won't save bad content or poor storytelling"
+          note: "Use evidence and personal experience to build credibility for your contrarian view."
+        
+        - name: "Positioning"
+          purpose: "Present your unique solution or reframed approach."
+          format: "Offer a better way that addresses the revealed problem."
+          examples:
+            - "Instead, focus on creating shorter videos with higher retention rates - here's how"
+            - "My approach: post 3x per week with strategic content that builds on previous videos"
+            - "The real secret: master storytelling and engagement first, then upgrade your equipment"
+          note: "Position your solution as the logical next step based on the problem you've revealed."
+    
+    storybrand:
+      title: "StoryBrand Framework for YouTube"
+      components:
+        - name: "Hero (The Viewer)"
+          purpose: "Position the viewer as the protagonist of their own story."
+          format: "Identify the viewer as someone with goals and aspirations."
+          examples:
+            - "You're an ambitious entrepreneur ready to scale your business"
+            - "You're a creator who wants to turn your passion into profit"
+            - "You're someone who's tired of being stuck in the 9-to-5 grind"
+          note: "Make the viewer the hero, not yourself or your brand."
+        
+        - name: "Problem (External, Internal, Philosophical)"
+          purpose: "Define the multi-layered challenge the hero faces."
+          format: "Present external obstacle, internal frustration, and deeper meaning."
+          examples:
+            - "External: Your business isn't growing fast enough. Internal: You feel overwhelmed and confused. Philosophical: Success shouldn't be this complicated"
+            - "External: Your content isn't getting views. Internal: You're doubting your abilities. Philosophical: Good creators deserve recognition"
+            - "External: You're stuck in your job. Internal: You feel trapped and unfulfilled. Philosophical: Everyone deserves freedom and purpose"
+          note: "Address all three levels - what they face, how they feel, and why it matters."
+        
+        - name: "Guide (You as the Mentor)"
+          purpose: "Position yourself as the experienced guide who can help."
+          format: "Show empathy and demonstrate authority through experience."
+          examples:
+            - "I've been where you are - I struggled for 3 years before discovering this system"
+            - "After helping 500+ creators grow their channels, I've seen every mistake you can make"
+            - "I went from corporate burnout to 7-figure entrepreneur using these exact strategies"
+          note: "Balance relatability with credibility; you're the guide, not the hero."
+        
+        - name: "Plan (The Method)"
+          purpose: "Present a clear, simple path to success."
+          format: "Break down your solution into digestible steps."
+          examples:
+            - "Step 1: Identify your niche. Step 2: Create your content pillars. Step 3: Optimize for engagement"
+            - "First: Audit your current content. Second: Implement the hook framework. Third: Scale what works"
+            - "Phase 1: Foundation building. Phase 2: Content creation. Phase 3: Monetization"
+          note: "Keep it simple - 3-4 steps maximum for clarity."
+        
+        - name: "Call to Action"
+          purpose: "Give the hero a clear next step to begin their transformation."
+          format: "Specific action that moves them forward on their journey."
+          examples:
+            - "Subscribe and implement step 1 this week - I'll guide you through the rest"
+            - "Download my free starter kit and begin your transformation today"
+            - "Comment 'READY' and I'll send you the complete roadmap"
+          note: "Make the call to action feel like the natural next step in their hero's journey."
+        
+        - name: "Stakes (Failure)"
+          purpose: "Show what happens if the hero doesn't act."
+          format: "Paint a picture of continued struggle or missed opportunity."
+          examples:
+            - "Without this system, you'll keep spinning your wheels while competitors pass you by"
+            - "If you don't take action now, you'll still be stuck in the same place next year"
+            - "The cost of inaction is staying trapped in a life that doesn't fulfill you"
+          note: "Be honest about consequences without being overly dramatic or fear-mongering."
+        
+        - name: "Success (Transformation)"
+          purpose: "Show the positive outcome when the hero follows the plan."
+          format: "Paint a vivid picture of their transformed life."
+          examples:
+            - "Imagine running a business that gives you freedom, fulfillment, and financial security"
+            - "Picture yourself as a confident creator with a loyal audience and steady income"
+            - "Envision waking up excited about your work, knowing you're living your purpose"
+          note: "Make the success vision compelling and personally meaningful to your audience."
+       
+    formatting_checklist:
+      - "Use 3-5 relevant tags in the description"
+      - "Do not use emojis"
+      - "Include timestamps for long-form content"
+      - "Write detailed descriptions with keywords"
+      - "Add end screens and cards for related videos"

@@ -1,0 +1,325 @@
+tiktok:
+    name: "TikTok"
+    
+    aida:
+      title: "AIDA Framework for TikTok"
+      components:
+        - name: "Attention (Hook - First 3 Seconds)"
+          purpose: "Prevent users from scrolling away immediately."
+          format: "Visual hook with text overlay or strong opening statement."
+          examples:
+            - "POV: You just learned the productivity trick that billionaires use"
+            - "This will change how you think about success forever"
+            - "Watch me transform this mess into something amazing"
+          note: "Critical window - users decide within 3 seconds to stay or scroll."
+        
+        - name: "Interest (Setup - Seconds 3-10)"
+          purpose: "Build context and curiosity quickly."
+          format: "Problem identification or story setup with trending sounds."
+          examples:
+            - "I used to struggle with this exact same problem until I discovered..."
+            - "Everyone's doing this wrong and here's why..."
+            - "The mistake I made that cost me everything..."
+          note: "Use trending audio and quick visual transitions to maintain engagement."
+        
+        - name: "Desire (Payoff - Seconds 10-25)"
+          purpose: "Deliver the transformation or valuable content."
+          format: "Tutorial steps, before/after reveal, or key insights."
+          examples:
+            - "Now watch what happens when I apply this simple technique..."
+            - "The result after 30 days was absolutely incredible..."
+            - "Here's exactly what changed my entire approach..."
+          note: "Show concrete results or step-by-step process with visual demonstration."
+        
+        - name: "Action (CTA - Final 5 Seconds)"
+          purpose: "Drive follows and engagement."
+          format: "Clear call-to-action with trending elements."
+          examples:
+            - "Follow for more productivity hacks like this"
+            - "Try this and comment how it went"
+            - "Save this for when you need motivation"
+            - "What would you do differently? Let me know below"
+          note: "Keep CTAs simple and aligned with TikTok's culture."
+    
+    bab:
+      title: "BAB Framework for TikTok"
+      components:
+        - name: "Before"
+          purpose: "Show the relatable struggle in a visually engaging way."
+          format: "Quick visual demonstration or text overlay of the problem."
+          examples:
+            - "Before: Me trying to be productive at 6 AM vs reality"
+            - "Before: My morning routine when I wake up tired vs energized"
+            - "Before: Spending hours on content that gets 50 views"
+          note: "Use trending formats like 'POV', 'Me when', or before/after reveals."
+        
+        - name: "After"
+          purpose: "Showcase the transformation with compelling visuals."
+          format: "Dynamic visual demonstration of the improved state."
+          examples:
+            - "After: Actually crushing my 6 AM workout with this trick"
+            - "After: Waking up naturally energized and ready to conquer"
+            - "After: 10-minute content creation that hits 100K+ views"
+          note: "Use visual transitions and trending effects to enhance the transformation."
+        
+        - name: "Bridge"
+          purpose: "Reveal the method or solution with engaging demonstration."
+          format: "Quick tutorial or reveal of the key insight."
+          examples:
+            - "Bridge: This 30-second morning ritual changed everything"
+            - "Bridge: The sleep hack that fitness influencers don't want you to know"
+            - "Bridge: The content formula that broke my algorithm"
+          note: "Make it feel like you're sharing an insider secret or hack."
+      
+    4cs:
+      title: "4 Cs Quality-Check Framework for TikTok"
+      components:
+        - name: "Clear"
+          purpose: "Get your point across in seconds, not minutes."
+          format: "Visual clarity with simple text overlays."
+          examples:
+            - "Use large, readable text overlays"
+            - "One clear message per video, not multiple points"
+            - "Visual demonstration beats verbal explanation"
+          note: "If viewers need to rewatch to understand, it's not clear enough."
+        
+        - name: "Concise"
+          purpose: "Maximize impact in minimal time."
+          format: "Every second must drive the message forward."
+          examples:
+            - "Cut dead time: jump cuts, fast transitions"
+            - "Get to the point in first 3 seconds"
+            - "Use trending sounds instead of long explanations"
+          note: "Attention spans are 3 seconds, not 3 minutes."
+        
+        - name: "Compelling"
+          purpose: "Create addictive, rewatchable content."
+          format: "Hook with surprise, transformation, or trending elements."
+          examples:
+            - "Unexpected reveals: 'Wait for the transformation...'"
+            - "Relatable struggles: 'POV: You trying to be productive'"
+            - "Trending formats: 'Tell me you're X without telling me'"
+          note: "Compelling TikToks get watched multiple times and shared."
+        
+        - name: "Credible"
+          purpose: "Build trust through authentic, real content."
+          format: "Show real results and genuine reactions."
+          examples:
+            - "Real-time reactions: genuine surprise, not fake shock"
+            - "Show the process: behind-the-scenes, trial and error"
+            - "Admit when things don't work: 'This failed, here's why'"
+          note: "TikTok audiences can spot fake from a mile away."
+      
+    uuuu:
+      title: "4 U's Framework for TikTok (Urgent · Useful · Unique · Ultra-specific)"
+      components:
+        - name: "Urgent"
+          purpose: "Create immediate action through time-sensitive messaging."
+          format: "Use time-bound language and urgency indicators."
+          examples:
+            - "🚨 Last 24 hours to get this productivity hack before it's gone"
+            - "Only 3 days left to transform your morning routine"
+            - "This trend is dying - catch it before everyone else does"
+          note: "TikTok moves fast - leverage FOMO and trending moments."
+        
+        - name: "Useful"
+          purpose: "Provide genuine value that improves viewers' lives."
+          format: "Actionable tips, hacks, or insights they can use immediately."
+          examples:
+            - "This 30-second technique will save you 2 hours daily"
+            - "The productivity hack that actually works (tried it for 30 days)"
+            - "How to double your content output in half the time"
+          note: "Value-first content performs better than pure entertainment."
+        
+        - name: "Unique"
+          purpose: "Stand out from the thousands of similar videos."
+          format: "Uncommon angle, personal story, or contrarian take."
+          examples:
+            - "Everyone's wrong about morning routines - here's what actually works"
+            - "The productivity advice nobody talks about (but should)"
+            - "Why I quit the 5 AM club and became more productive"
+          note: "Go against the grain or share your unique perspective."
+        
+        - name: "Ultra-specific"
+          purpose: "Get ultra-precise to cut through the noise."
+          format: "Exact numbers, specific timeframes, detailed scenarios."
+          examples:
+            - "Exactly 49 words that made my content go viral"
+            - "The 3.5-minute morning routine that changed everything"
+            - "This $7 tool saves me 4.2 hours per week"
+          note: "Specificity builds credibility and curiosity on TikTok."
+    
+    pppp:
+      title: "4 P's Framework for TikTok (Picture → Promise → Proof → Push)"
+      components:
+        - name: "Picture"
+          purpose: "Paint a vivid scenario viewers can relate to instantly."
+          format: "Visual storytelling that shows the current state or problem."
+          examples:
+            - "Picture: you staring at a blank content calendar at 11 PM"
+            - "Picture: your productivity apps collecting digital dust"
+            - "Picture: checking your phone 127 times before breakfast"
+          note: "Make it so relatable they feel called out in the best way."
+        
+        - name: "Promise"
+          purpose: "Offer a clear transformation or benefit."
+          format: "Specific outcome they'll achieve by watching/following."
+          examples:
+            - "Promise: never stare at that blank calendar again"
+            - "Promise: turn those apps into your productivity powerhouse"
+            - "Promise: check your phone 80% less without missing anything important"
+          note: "Make the promise achievable and desirable for your audience."
+        
+        - name: "Proof"
+          purpose: "Provide credible evidence the promise is real."
+          format: "Social proof, results, testimonials, or demonstrations."
+          examples:
+            - "Proof: 6,412 creators already fill their calendars automatically"
+            - "Proof: I went from 20 to 200K followers using these exact apps"
+            - "Proof: my screen time dropped 73% in 2 weeks with this method"
+          note: "Numbers and real results build trust faster than claims."
+        
+        - name: "Push"
+          purpose: "Drive the specific action you want them to take."
+          format: "Clear, simple call-to-action that fits TikTok culture."
+          examples:
+            - "Push: comment 'CALENDAR' for the free template"
+            - "Push: follow for the app setup tutorial tomorrow"
+            - "Push: try this for 3 days and duet your results"
+          note: "Make the CTA feel like they're joining a community or movement."
+      
+    slap:
+      title: "SLAP Framework for TikTok (Stop → Look → Act → Purchase)"
+      components:
+        - name: "Stop"
+          purpose: "Interrupt the scroll with a pattern-breaking opener."
+          format: "Bold visual or text that demands immediate attention."
+          examples:
+            - "STOP scrolling 👋 - this will change your mind about productivity"
+            - "⚠️ STOP - everyone's doing morning routines wrong"
+            - "WAIT. Before you scroll, see what happens in 15 seconds"
+          note: "Use strong visuals, emojis, or contrarian statements to break the scroll."
+        
+        - name: "Look"
+          purpose: "Present compelling evidence or insight that proves your point."
+          format: "Visual demonstration, chart, or surprising statistic."
+          examples:
+            - "LOOK: one chart proves why 80% of reels flop"
+            - "LOOK: this simple change doubled my engagement"
+            - "LOOK: the data behind why your content isn't working"
+          note: "Show, don't just tell - use visuals to make your point undeniable."
+        
+        - name: "Act"
+          purpose: "Give a simple, immediate action they can take right now."
+          format: "One clear, easy step they can do while watching."
+          examples:
+            - "ACT: save this for when you need motivation"
+            - "ACT: try this technique in your next video"
+            - "ACT: screenshot this and use it as your template"
+          note: "Make the action effortless - engagement while they're still engaged."
+        
+        - name: "Purchase"
+          purpose: "Drive toward your monetization goal or deeper funnel."
+          format: "Soft CTA that doesn't feel pushy on TikTok."
+          examples:
+            - "PURCHASE: full playbook link in bio"
+            - "PURCHASE: course details in first comment"
+            - "PURCHASE: DM 'GROW' for the complete system"
+          note: "Keep it subtle - TikTok users resist hard sales but love exclusive access."
+    
+    app:
+      title: "APP Framework for TikTok (Awareness → Problem → Positioning)"
+      components:
+        - name: "Awareness"
+          purpose: "Acknowledge what everyone already 'knows' or believes."
+          format: "Start with conventional wisdom or common assumptions."
+          examples:
+            - "We all 'know' that long captions kill engagement"
+            - "Everyone says you need to post 3x daily to grow"
+            - "The advice is always 'be authentic' but what does that mean?"
+          note: "Meet them where they are - validate the common belief first."
+        
+        - name: "Problem"
+          purpose: "Reveal the flaw or contradiction in that conventional wisdom."
+          format: "Present data, experience, or insight that challenges the norm."
+          examples:
+            - "But Instagram's algorithm actually favors longer, engaging content"
+            - "But I grew 100K followers posting just 3x per week"
+            - "But 'authentic' content with no strategy gets 50 views"
+          note: "Create cognitive dissonance - make them question what they thought they knew."
+        
+        - name: "Positioning"
+          purpose: "Present your solution or reframe as the better approach."
+          format: "Your method, system, or perspective as the alternative."
+          examples:
+            - "Here's how to write 180-word captions that actually boost reach"
+            - "Here's my 3x/week posting strategy that outperforms daily"
+            - "Here's how to be strategic AND authentic (it's not either/or)"
+          note: "Position yourself as the guide who knows the 'real' way to succeed."
+    
+    storybrand:
+      title: "StoryBrand Framework for TikTok (7-Part Hero's Journey)"
+      components:
+        - name: "Hero"
+          purpose: "Establish the viewer as the protagonist of their story."
+          format: "Directly address them and their current situation."
+          examples:
+            - "You = the creator with a messy content calendar"
+            - "You = the entrepreneur drowning in daily tasks"
+            - "You = the person who wants to be productive but feels overwhelmed"
+          note: "Make them the hero, not you - they're the center of the story."
+        
+        - name: "Problem"
+          purpose: "Identify the external, internal, and philosophical problems they face."
+          format: "Layer the problem to show deeper understanding."
+          examples:
+            - "External: your content calendar is chaos. Internal: you feel like a fraud. Philosophical: creators deserve systems that work"
+            - "External: too many tasks. Internal: constant overwhelm. Philosophical: productivity should create freedom, not stress"
+          note: "Go beyond surface problems - address the emotional and moral stakes."
+        
+        - name: "Guide"
+          purpose: "Position yourself as the experienced guide who can help."
+          format: "Show empathy and authority without being the hero."
+          examples:
+            - "I've been exactly where you are - scattered, stressed, and searching for a system"
+            - "After 5 years and 10M+ views, I learned what actually works"
+          note: "Guide energy: 'I've been there, I understand, and I can help you.'"
+        
+        - name: "Plan"
+          purpose: "Present a clear, simple path forward."
+          format: "3-step process that feels achievable."
+          examples:
+            - "Step 1: Audit your current system. Step 2: Implement the template. Step 3: Automate the workflow"
+            - "Phase 1: Mind dump everything. Phase 2: Prioritize with my method. Phase 3: Execute systematically"
+          note: "Keep it to 3 steps max - complexity kills conversion on TikTok."
+        
+        - name: "Call to Action"
+          purpose: "Give them the next step to start their transformation."
+          format: "Clear, specific action that moves them forward."
+          examples:
+            - "CTA: comment 'SYSTEM' for the free template"
+            - "CTA: follow for the 7-day implementation series"
+            - "CTA: DM me your biggest productivity challenge"
+          note: "Make the CTA the logical next step in their hero's journey."
+        
+        - name: "Success"
+          purpose: "Paint the picture of their life after transformation."
+          format: "Specific, tangible outcomes they'll experience."
+          examples:
+            - "Success: never stare at a blank content calendar again + 2 hours back daily"
+            - "Success: inbox zero, clear priorities, and time for what matters"
+          note: "Be specific about the transformation - vague promises don't motivate."
+        
+        - name: "Failure"
+          purpose: "Show what happens if they don't take action."
+          format: "Gentle but real consequences of staying stuck."
+          examples:
+            - "Failure: another year of content chaos and missed opportunities"
+            - "Failure: burnout from working harder, not smarter"
+          note: "Don't fear-monger, but show the real cost of inaction."
+      
+    formatting_checklist:
+      - "Use trending hashtags (3-5 maximum)"
+      - "Include text overlays for context"
+      - "Use trending sounds when possible"
+      - "Keep videos 15-60 seconds for optimal engagement"

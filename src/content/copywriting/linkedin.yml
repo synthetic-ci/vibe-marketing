@@ -1,0 +1,359 @@
+linkedin:
+  name: "LinkedIn"  
+  aida:
+    title: "AIDA Framework for LinkedIn"
+    components:
+      - name: "Attention (Hook)"
+        purpose: "Grab immediate attention."
+        format: "Bold claim, surprising statistic, or compelling question."
+        examples:
+          - "My productivity increased 300% with this simple system."
+          - "I fired my best employee yesterday. Here's why."
+          - "This networking mistake costs you 6 figures."
+        note: "Must stop the scroll within first 3 lines."
+      
+      - name: "Interest (Body)"
+        purpose: "Build curiosity and relatability."
+        format: "Story setup, problem identification, or context."
+        examples:
+          - "I used to work 12-hour days and still felt behind. Sound familiar?"
+          - "Three months ago, I was drowning in meetings and emails."
+          - "Everyone talks about work-life balance, but nobody explains how."
+        note: "Connect with audience's pain points or aspirations."
+      
+      - name: "Desire (Value/Outcome)"
+        purpose: "Show transformation and benefits."
+        format: "Specific results, outcomes, or improvements."
+        examples:
+          - "Now I finish work by 4 PM and have time for my family again."
+          - "My stress dropped, my income doubled, my relationships improved."
+          - "In 30 days, I went from chaos to complete control."
+        note: "Paint a picture of the desired outcome."
+      
+      - name: "Action (CTA)"
+        purpose: "Drive specific engagement."
+        format: "Clear, specific call-to-action."
+        examples:
+          - "Comment 'SYSTEM' for the free 4-step guide."
+          - "What's your biggest productivity challenge? Let me know below."
+          - "Save this post and try it for one week. Then tell me what happened."
+        note: "Make the next step crystal clear and easy."
+  
+  pas:
+    title: "PAS Framework for LinkedIn"
+    components:
+      - name: "Problem"
+        purpose: "Identify a specific, relatable pain point."
+        format: "Direct question or statement highlighting the issue."
+        examples:
+          - "Open rate stuck at 12%?"
+          - "Still working weekends while competitors pull ahead?"
+          - "Networking events feel like a waste of time?"
+        note: "Make it immediately recognizable and specific."
+      
+      - name: "Agitate"
+        purpose: "Amplify the pain and urgency."
+        format: "Consequences, missed opportunities, or escalating problems."
+        examples:
+          - "Every hour you wait, 100+ leads ghost you."
+          - "While you're grinding, they're automating and scaling 10x faster."
+          - "Another month of awkward small talk = another month of zero real connections."
+        note: "Create urgency without being manipulative."
+      
+      - name: "Solution"
+        purpose: "Present a clear, actionable resolution."
+        format: "Specific method, tool, or approach."
+        examples:
+          - "Copy this 3-line cold-DM script instead."
+          - "Here's the 15-minute automation that changed everything."
+          - "This conversation starter gets real results in 30 seconds."
+        note: "Make the solution feel immediate and achievable."
+  
+  bab:
+    title: "BAB Framework for LinkedIn"
+    components:
+      - name: "Before"
+        purpose: "Highlight the current painful state or problem."
+        format: "Describe the frustrating current situation."
+        examples:
+          - "Before: Spending 6 hours every week manually creating reports that nobody reads."
+          - "Before: Networking events where you collect business cards but zero real connections."
+          - "Before: Working 12-hour days but still feeling like you're falling behind."
+        note: "Make the pain point specific and relatable to your audience."
+      
+      - name: "After"
+        purpose: "Paint the picture of the desired outcome."
+        format: "Show the transformation and ideal state."
+        examples:
+          - "After: Automated reports that generate insights people actually act on."
+          - "After: Deep professional relationships that lead to real opportunities."
+          - "After: Finishing work by 5 PM with twice the impact and zero stress."
+        note: "Make the outcome tangible and aspirational."
+      
+      - name: "Bridge"
+        purpose: "Provide the solution that connects before to after."
+        format: "Clear pathway or method to achieve the transformation."
+        examples:
+          - "Bridge: This 3-step automation framework I use with all my clients."
+          - "Bridge: The conversation framework that turns small talk into meaningful connections."
+          - "Bridge: The priority matrix that eliminates 80% of busy work."
+        note: "Position your solution as the logical path to transformation."
+  
+  4cs:
+    title: "4 Cs Quality-Check Framework for LinkedIn"
+    components:
+      - name: "Clear"
+        purpose: "Ensure your message is easily understood."
+        format: "Check for simple language and obvious takeaways."
+        examples:
+          - "Avoid jargon: 'leverage synergies' → 'work together better'"
+          - "Use specific numbers: 'increased productivity' → 'saved 3 hours daily'"
+          - "One main point per post, not multiple complex ideas"
+        note: "If a 12-year-old can't understand it, simplify it."
+      
+      - name: "Concise"
+        purpose: "Eliminate unnecessary words and get to the point."
+        format: "Cut fluff and focus on essential information."
+        examples:
+          - "Remove filler words: 'I really think that maybe' → 'I believe'"
+          - "Shorten phrases: 'in order to' → 'to', 'a large number of' → 'many'"
+          - "Keep paragraphs to 1-2 sentences max for readability"
+        note: "Every word should earn its place or get cut."
+      
+      - name: "Compelling"
+        purpose: "Make your content irresistible to read and share."
+        format: "Include emotional hooks and valuable insights."
+        examples:
+          - "Lead with curiosity: 'The mistake 90% of leaders make'"
+          - "Use power words: 'discover', 'transform', 'breakthrough'"
+          - "Include personal stakes: 'This cost me $50K to learn'"
+        note: "Boring posts get scrolled past, compelling posts get saved."
+      
+      - name: "Credible"
+        purpose: "Build trust through proof and authenticity."
+        format: "Back claims with evidence and personal experience."
+        examples:
+          - "Share specific results: 'increased revenue by 147% in 6 months'"
+          - "Cite sources: 'According to Harvard Business Review study'"
+          - "Admit failures: 'After 3 failed attempts, I finally learned'"
+        note: "Trust is earned through transparency and proven results."
+
+  uuuu:
+    title: "UUUU / 4 U's Framework for LinkedIn"
+    components:
+      - name: "Urgent"
+        purpose: "Create time-sensitive pressure that demands immediate attention."
+        format: "Time constraints, deadlines, or scarcity indicators."
+        examples:
+          - "🚨 Last chance: offer expires in 2 hours"
+          - "Only 24 spots left for this masterclass"
+          - "This window closes Friday at midnight"
+        note: "Build urgency without false scarcity - make it genuine."
+      
+      - name: "Useful"
+        purpose: "Provide clear, practical value that solves a real problem."
+        format: "Specific benefit, tool, or knowledge that helps immediately."
+        examples:
+          - "Free 'viral hook' checklist (49 proven formulas)"
+          - "5-minute automation that saves 2 hours daily"
+          - "Copy-paste email templates that get 90% response rates"
+        note: "Value must be immediately apparent and actionable."
+      
+      - name: "Unique"
+        purpose: "Stand out from the noise with a distinctive angle or approach."
+        format: "Uncommon perspective, exclusive access, or novel method."
+        examples:
+          - "The counter-intuitive networking strategy nobody talks about"
+          - "Behind-the-scenes look at my $10M campaign strategy"
+          - "The 'opposite day' approach to LinkedIn content that works"
+        note: "Differentiate from what everyone else is already saying."
+      
+      - name: "Ultra-specific"
+        purpose: "Use precise details that make claims believable and actionable."
+        format: "Exact numbers, timeframes, or specific outcomes."
+        examples:
+          - "Increase open rates by exactly 23.7% in 14 days"
+          - "The 3-sentence cold DM that landed me 47 clients"
+          - "How I gained 10,847 followers using only 15 minutes per day"
+        note: "Specificity builds credibility and makes promises tangible."
+
+  pppp:
+    title: "PPPP / 4 Ps Framework for LinkedIn"
+    components:
+      - name: "Picture"
+        purpose: "Paint a vivid image of the current problem or situation."
+        format: "Visual or scenario that immediately resonates with your audience."
+        examples:
+          - "Picture: a blank content calendar staring back at you"
+          - "Imagine: your inbox with 247 unread emails at 9 PM"
+          - "Picture this: presenting to the board with outdated data"
+        note: "Make the scenario immediately recognizable and relatable."
+      
+      - name: "Promise"
+        purpose: "Offer a clear, compelling transformation or solution."
+        format: "Specific outcome or change you'll deliver."
+        examples:
+          - "Promise: never stare at that blank calendar again"
+          - "Promise: inbox zero every single day by 5 PM"
+          - "Promise: real-time dashboards that impress every stakeholder"
+        note: "Make the promise specific and directly connected to the picture."
+      
+      - name: "Proof"
+        purpose: "Provide credible evidence that your promise is achievable."
+        format: "Statistics, testimonials, or track record that builds trust."
+        examples:
+          - "Proof: 6,412 marketers already auto-fill their calendars with this system"
+          - "Proof: my clients average 2.3 hours saved daily using this method"
+          - "Proof: 94% of executives say this transformed their decision-making"
+        note: "Use real numbers and social proof to validate your claims."
+      
+      - name: "Push"
+        purpose: "Drive immediate action with a clear, specific call-to-action."
+        format: "Simple next step that moves toward the promised outcome."
+        examples:
+          - "Push: comment 'PLAN' for the free content calendar template"
+          - "Push: DM me 'SYSTEM' and I'll send you the 5-step framework"
+          - "Push: save this post and implement step 1 today"
+        note: "Make the action easy, specific, and directly tied to the promise."
+
+  slap:
+    title: "SLAP Framework for LinkedIn"
+    components:
+      - name: "Stop"
+        purpose: "Interrupt the scroll with a pattern break or attention grabber."
+        format: "Bold statement, emoji, or direct command that halts momentum."
+        examples:
+          - "STOP scrolling 👋"
+          - "Wait. Before you keep scrolling..."
+          - "🚨 PAUSE: This will change how you think about content"
+        note: "Must be strong enough to break the scroll reflex instantly."
+      
+      - name: "Look"
+        purpose: "Direct attention to a specific insight, data point, or revelation."
+        format: "Present compelling evidence or surprising information."
+        examples:
+          - "LOOK: one chart proves why 80% of reels flop"
+          - "Check this: 3 words that doubled my conversion rate"
+          - "See this data: only 2% of LinkedIn posts get saved"
+        note: "Make the 'look' element genuinely worth their attention."
+      
+      - name: "Act"
+        purpose: "Get immediate engagement or micro-commitment."
+        format: "Simple, specific action that builds momentum toward the purchase."
+        examples:
+          - "ACT: save this post for later reference"
+          - "Do this: comment your biggest challenge below"
+          - "Try it: screenshot this and test it today"
+        note: "Keep the action low-friction but meaningful."
+      
+      - name: "Purchase"
+        purpose: "Drive toward the final conversion or main call-to-action."
+        format: "Clear path to your offer, product, or desired outcome."
+        examples:
+          - "PURCHASE: course link in first comment"
+          - "Get the full system: DM me 'SYSTEM'"
+          - "Join 2,000+ others: link in my bio"
+        note: "Make the transition from Act to Purchase feel natural and logical."
+
+  app:
+    title: "APP Framework for LinkedIn"
+    components:
+      - name: "Awareness"
+        purpose: "Establish common knowledge or conventional wisdom."
+        format: "Start with what 'everyone knows' or widely accepted beliefs."
+        examples:
+          - "We all 'know' long captions die on social media"
+          - "Everyone says you need 10K followers to make money"
+          - "The conventional wisdom: post daily or your reach dies"
+        note: "Use familiar beliefs to create common ground with your audience."
+      
+      - name: "Problem"
+        purpose: "Challenge the conventional wisdom with contrary evidence."
+        format: "Present data, trends, or insights that contradict the awareness."
+        examples:
+          - "But Instagram's algorithm actually favors long, engaging reads"
+          - "Yet I made $50K with just 847 followers using this approach"
+          - "But the top creators post 3x per week, not daily"
+        note: "Create cognitive dissonance that demands resolution."
+      
+      - name: "Positioning"
+        purpose: "Provide your unique solution or reframed approach."
+        format: "Offer the new way of thinking or acting based on the problem."
+        examples:
+          - "Here's how to write 180-word captions that actually rank"
+          - "The micro-influence strategy that beats follower count every time"
+          - "Quality over quantity: the 3-post weekly framework that works"
+        note: "Position yourself as the guide who has the better way forward."
+
+  storybrand:
+    title: "StoryBrand Framework for LinkedIn"
+    components:
+      - name: "Hero"
+        purpose: "Identify your audience as the hero of their own story."
+        format: "Position your reader as the main character facing a challenge."
+        examples:
+          - "You're a busy executive drowning in endless meetings"
+          - "You're a content creator staring at a blank posting calendar"
+          - "You're an entrepreneur ready to scale but stuck in daily operations"
+        note: "Make your audience the protagonist, not your product or service."
+      
+      - name: "Problem"
+        purpose: "Define the villain or obstacle the hero must overcome."
+        format: "External problem (practical) and internal problem (emotional)."
+        examples:
+          - "External: Your inbox has 247 unread emails. Internal: You feel overwhelmed and behind"
+          - "External: Content ideas run dry by Tuesday. Internal: You doubt your creative abilities"
+          - "External: No systems for delegation. Internal: Fear of losing control"
+        note: "Address both the practical challenge and emotional frustration."
+      
+      - name: "Guide"
+        purpose: "Position yourself as the experienced mentor who can help."
+        format: "Show empathy and authority without being the hero."
+        examples:
+          - "I've been where you are - 12-hour days, constant stress, no end in sight"
+          - "After creating 10,000+ pieces of content, I learned the patterns that work"
+          - "I scaled 3 companies from solo to 50+ team members using these systems"
+        note: "Be the Yoda, not Luke Skywalker - guide, don't overshadow."
+      
+      - name: "Plan"
+        purpose: "Provide a clear, simple pathway from problem to solution."
+        format: "3-step process that feels achievable and logical."
+        examples:
+          - "Step 1: Audit your time. Step 2: Automate the routine. Step 3: Delegate the rest"
+          - "Phase 1: Content audit. Phase 2: Template creation. Phase 3: Batch production"
+          - "First: Systems audit. Next: Process documentation. Finally: Team training"
+        note: "Keep it to 3 steps maximum - more feels overwhelming."
+      
+      - name: "Call to Action"
+        purpose: "Invite the hero to take the first step on their journey."
+        format: "Clear, specific action that starts the transformation."
+        examples:
+          - "Download the free time audit template and start step 1 today"
+          - "Comment 'TEMPLATE' for the content planning system"
+          - "Book a free 15-minute systems audit call"
+        note: "Make the first step small, specific, and immediately actionable."
+      
+      - name: "Success"
+        purpose: "Paint the picture of life after transformation."
+        format: "Specific positive outcomes and improved state."
+        examples:
+          - "Finish work by 5 PM every day with complete confidence everything's handled"
+          - "Never stare at a blank content calendar again - ideas flow effortlessly"
+          - "Sleep peacefully knowing your business runs smoothly without your constant input"
+        note: "Make success tangible and emotionally compelling."
+      
+      - name: "Failure"
+        purpose: "Show the consequences of not taking action."
+        format: "What continues or worsens if they don't change."
+        examples:
+          - "Keep burning out at this pace and risk your health, relationships, and sanity"
+          - "Another month of inconsistent posting means another month of stagnant growth"
+          - "Without systems, you'll hit the same growth ceiling that stops 90% of entrepreneurs"
+        note: "Use failure stakes sparingly - motivate, don't manipulate with fear."
+
+  formatting_checklist:
+    - "Line breaks every 1–2 sentences"
+    - "No hashtags in the first 3 lines"
+    - "Limit to 3–5 targeted hashtags at the end"
+    - "Keep it under 300 words ideally (but up to 1,300 characters max)"
+  

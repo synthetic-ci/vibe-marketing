@@ -1,0 +1,325 @@
+facebook:
+    name: "Facebook"
+    structure:
+      title: "High-Engagement Facebook Post"
+      components:
+        - name: "Opening Hook (First 2-3 Lines)"
+          purpose: "Capture attention in the newsfeed."
+          format: "Question, surprising statement, or relatable scenario."
+          examples:
+            - "Anyone else struggling with [common problem]?"
+            - "This happened to me yesterday and I can't stop thinking about it..."
+            - "Unpopular opinion: [controversial but thoughtful take]"
+          note: "Must work before the 'See More' cutoff."
+        
+        - name: "Story/Content Body"
+          purpose: "Deliver value, story, or insight."
+          best_practices:
+            - "Use conversational tone"
+            - "Include personal anecdotes"
+            - "Break up text with line breaks"
+            - "Use emojis sparingly but effectively"
+            - "Keep paragraphs short (2-3 sentences max)"
+        
+        - name: "Community Engagement"
+          purpose: "Foster discussion and connection."
+          format: "Questions, polls, or conversation starters."
+          best_practices:
+            - "Ask open-ended questions"
+            - "Request personal experiences"
+            - "Use Facebook's poll feature"
+            - "Encourage sharing and tagging friends"
+        
+        - name: "Call to Action"
+          purpose: "Drive specific engagement."
+          best_types:
+            - "What's your experience with this?"
+            - "Tag someone who needs to see this"
+            - "Share your thoughts in the comments"
+            - "React with [emoji] if you agree"
+    
+    bab:
+      title: "BAB Framework for Facebook"
+      components:
+        - name: "Before"
+          purpose: "Share a relatable struggle or common problem."
+          format: "Personal story or universal experience with conversational tone."
+          examples:
+            - "Before: I used to spend my weekends meal prepping for hours, feeling exhausted before Monday even started."
+            - "Before: Every family gathering turned into me being the unofficial tech support for everyone's devices."
+            - "Before: Date nights were rare because finding a babysitter felt impossible and expensive."
+          note: "Use personal anecdotes that create connection and relatability."
+        
+        - name: "After"
+          purpose: "Show the positive transformation or improved state."
+          format: "Uplifting outcome that others can aspire to achieve."
+          examples:
+            - "After: Now I meal prep in 30 minutes on Sunday and actually enjoy my weekend time with family."
+            - "After: I set boundaries and now family time is about connection, not fixing everyone's WiFi."
+            - "After: We have regular date nights thanks to a babysitting co-op with other parents."
+          note: "Make the outcome feel achievable and inspiring to the community."
+        
+        - name: "Bridge"
+          purpose: "Share the solution or insight that enabled the change."
+          format: "Practical method, mindset shift, or resource that others can use."
+          examples:
+            - "Bridge: The game-changer was batch cooking just 3 base ingredients and mixing them differently each day."
+            - "Bridge: I learned to say 'I'm not working today' and stick to it, even with family."
+            - "Bridge: Starting a neighborhood parent group where we take turns watching each other's kids."
+          note: "Position the solution as something the community can implement together."
+      
+    4cs:
+      title: "4 Cs Quality-Check Framework for Facebook"
+      components:
+        - name: "Clear"
+          purpose: "Communicate in a conversational, accessible way."
+          format: "Simple language that feels like talking to a friend."
+          examples:
+            - "Write like you speak: conversational tone, not formal"
+            - "Use questions to clarify points: 'You know what I mean?'"
+            - "Break up text with line breaks for easy reading"
+          note: "Facebook favors authentic, clear communication over polished corporate speak."
+        
+        - name: "Concise"
+          purpose: "Deliver value without overwhelming the newsfeed."
+          format: "Meaningful content that's not unnecessarily long."
+          examples:
+            - "Front-load the value before 'See More' cutoff"
+            - "Use bullet points or numbered lists for longer posts"
+            - "Cut corporate jargon: 'reach out' → 'contact', 'utilize' → 'use'"
+          note: "Facebook users want substance, not fluff, but keep it digestible."
+        
+        - name: "Compelling"
+          purpose: "Encourage community interaction and sharing."
+          format: "Relatable content that sparks conversation."
+          examples:
+            - "Personal stories that others can relate to"
+            - "Controversial but thoughtful takes that start discussions"
+            - "Questions that everyone has an opinion about"
+          note: "Compelling Facebook content gets people talking in the comments."
+        
+        - name: "Credible"
+          purpose: "Build community trust through authentic sharing."
+          format: "Honest, vulnerable, and transparent communication."
+          examples:
+            - "Share failures alongside successes"
+            - "Admit when you don't know something"
+            - "Give credit where credit is due"
+          note: "Facebook communities value authenticity over perfection."
+      
+    uuuu:
+      title: "UUUU / 4 U's Framework for Facebook"
+      components:
+        - name: "Urgent"
+          purpose: "Create time-sensitive motivation for immediate action."
+          format: "Time-limited language that encourages quick engagement."
+          examples:
+            - "🚨 Last chance: free community access ends tonight"
+            - "Only 24 hours left to join our exclusive Facebook group"
+            - "Breaking: New algorithm change affects your reach starting Monday"
+          note: "Use urgency sparingly to maintain credibility with your community."
+        
+        - name: "Useful"
+          purpose: "Provide clear, actionable value to the audience."
+          format: "Practical benefits that solve real problems."
+          examples:
+            - "5-minute daily routine that doubled my productivity"
+            - "Free template that saves 10 hours of planning every month"
+            - "Simple hack that cuts your grocery bill in half"
+          note: "Focus on immediate, practical value your audience can implement."
+        
+        - name: "Unique"
+          purpose: "Stand out from the noise in Facebook feeds."
+          format: "Fresh perspective or uncommon approach to common problems."
+          examples:
+            - "The backwards approach to meal planning that actually works"
+            - "Why I stopped giving productivity advice (and what I do instead)"
+            - "The one budgeting rule that financial gurus don't want you to know"
+          note: "Offer a fresh angle that differentiates from typical Facebook content."
+        
+        - name: "Ultra-specific"
+          purpose: "Target exact audience needs with precise details."
+          format: "Specific numbers, timeframes, or demographic details."
+          examples:
+            - "For working moms with toddlers who hate meal planning"
+            - "Exactly what to post on Facebook to get 3x more engagement in 30 days"
+            - "The 47-word email that booked me 12 clients last month"
+          note: "Specificity helps the right people immediately recognize this is for them."
+    
+    pppp:
+      title: "PPPP / 4 Ps Framework for Facebook"
+      components:
+        - name: "Picture"
+          purpose: "Paint a vivid scenario your audience can visualize."
+          format: "Descriptive scene that resonates with common experiences."
+          examples:
+            - "Picture this: a completely empty content calendar staring back at you"
+            - "Imagine opening your phone to 47 new client inquiries waiting"
+            - "Picture your family dinner table without phones for once"
+          note: "Use relatable scenarios that your Facebook community has experienced."
+        
+        - name: "Promise"
+          purpose: "Clearly state the benefit or transformation you're offering."
+          format: "Specific outcome that addresses the picture you painted."
+          examples:
+            - "Promise: you'll never stare at a blank content calendar again"
+            - "I promise you'll have a system that brings clients to you"
+            - "Promise: family dinners will become your favorite part of the day"
+          note: "Make promises that feel achievable and directly solve the pictured problem."
+        
+        - name: "Proof"
+          purpose: "Provide credible evidence that your promise is real."
+          format: "Numbers, testimonials, or social proof that builds trust."
+          examples:
+            - "Proof: 6,412 marketers already use this to auto-fill their calendars"
+            - "Just this week, 23 members landed new clients using this system"
+            - "Sarah tried this and texted me: 'Kids actually talked to us for 2 hours!'"
+          note: "Use specific numbers and real testimonials to build Facebook community trust."
+        
+        - name: "Push"
+          purpose: "Give a clear, simple next step for interested community members."
+          format: "Easy action that doesn't feel pushy or sales-heavy."
+          examples:
+            - "Comment 'PLAN' and I'll send you the template"
+            - "Drop a 🙋‍♀️ if you want the full system"
+            - "Type 'FAMILY' for the conversation starter guide"
+          note: "Make the call to action feel like community participation, not a hard sell."
+    
+    slap:
+      title: "SLAP Framework for Facebook"
+      components:
+        - name: "Stop"
+          purpose: "Interrupt the scroll and capture immediate attention."
+          format: "Bold, direct command that breaks through newsfeed noise."
+          examples:
+            - "STOP scrolling 👋"
+            - "HOLD UP - this changes everything"
+            - "WAIT - before you keep scrolling..."
+          note: "Use powerful interruption patterns that work in bite-sized social copy."
+        
+        - name: "Look"
+          purpose: "Present compelling evidence or insight that validates the stop."
+          format: "Data, statistic, or surprising fact that proves your point."
+          examples:
+            - "LOOK: one chart proves why 80% of reels flop"
+            - "LOOK: this one mistake costs creators 90% of their reach"
+            - "LOOK: the algorithm change nobody's talking about"
+          note: "Provide concrete evidence that makes people want to pay attention."
+        
+        - name: "Act"
+          purpose: "Give a simple, immediate action to take right now."
+          format: "Clear, easy step that requires minimal effort."
+          examples:
+            - "ACT: save this post for later"
+            - "ACT: share this with one person who needs it"
+            - "ACT: comment 'YES' if this resonates"
+          note: "Make the action so simple that resistance is minimal."
+        
+        - name: "Purchase"
+          purpose: "Direct to the next step or conversion opportunity."
+          format: "Clear path to your offer, product, or deeper engagement."
+          examples:
+            - "PURCHASE: course link in bio"
+            - "PURCHASE: free guide in my stories"
+            - "PURCHASE: DM me 'READY' for details"
+          note: "Built for bite-sized social copy; proven effective by LinkedIn creators in 2025."
+    
+    app:
+      title: "APP Framework for Facebook"
+      components:
+        - name: "Awareness"
+          purpose: "Acknowledge what everyone already believes or knows."
+          format: "Start with conventional wisdom or common belief."
+          examples:
+            - "We all 'know' long captions die on social media"
+            - "Everyone says video is the only content that works now"
+            - "The common advice is to post every single day"
+          note: "Begin with what your audience already accepts as truth."
+        
+        - name: "Problem"
+          purpose: "Reveal why that conventional wisdom is flawed or incomplete."
+          format: "Present contradictory evidence or hidden complications."
+          examples:
+            - "But Instagram's algorithm actually favors long reads"
+            - "Yet static posts are outperforming videos in my niche"
+            - "But posting daily is burning out 73% of content creators"
+          note: "Challenge the awareness with surprising data or insights."
+        
+        - name: "Positioning"
+          purpose: "Offer your unique solution or reframed approach."
+          format: "Present your method as the smarter alternative."
+          examples:
+            - "Here's how to write 180-word captions that rank"
+            - "This is why strategic static posts beat rushed videos"
+            - "Here's the 3-post weekly strategy that doubles engagement"
+          note: "New-school opener that reframes conventional wisdom; shines in thought-leadership content."
+    
+    storybrand:
+      title: "StoryBrand (7-Part Hero's Journey) Framework for Facebook"
+      components:
+        - name: "Character (Hero)"
+          purpose: "Introduce your audience as the hero of their own story."
+          format: "Position your audience as the main character facing a challenge."
+          examples:
+            - "You = busy entrepreneur drowning in daily tasks"
+            - "You = parent trying to balance work and family time"
+            - "You = content creator with messy inbox and zero system"
+          note: "Make your audience the hero, not your brand or product."
+        
+        - name: "Problem"
+          purpose: "Identify the external, internal, and philosophical problems."
+          format: "Layer multiple problem levels that resonate deeply."
+          examples:
+            - "External: 247 unread emails. Internal: feeling overwhelmed and behind. Philosophical: work shouldn't control your life"
+            - "External: kids on devices all dinner. Internal: feeling disconnected. Philosophical: family time should be sacred"
+            - "External: content everywhere, no strategy. Internal: feeling scattered. Philosophical: your voice deserves to be heard"
+          note: "Address not just what's wrong, but how it makes them feel and why it matters."
+        
+        - name: "Guide"
+          purpose: "Position yourself as the experienced guide, not the hero."
+          format: "Show empathy and authority without being the main character."
+          examples:
+            - "I've been where you are - 500+ emails, working weekends, feeling like I was drowning"
+            - "As a parent coach who's helped 1,000+ families reconnect..."
+            - "After building 6-figure content systems for 200+ creators..."
+          note: "Be the Yoda, not Luke Skywalker. Show you understand their pain."
+        
+        - name: "Plan"
+          purpose: "Provide a clear, simple 3-step plan to solve their problem."
+          format: "Break down your solution into digestible steps."
+          examples:
+            - "Step 1: Audit your inbox. Step 2: Set up 3 key filters. Step 3: Implement the 2-minute rule"
+            - "Step 1: Device-free zones. Step 2: Conversation starters. Step 3: Family rituals"
+            - "Step 1: Content audit. Step 2: Pillar strategy. Step 3: Batch creation system"
+          note: "Keep it to 3 steps maximum - more feels overwhelming."
+        
+        - name: "Call to Action"
+          purpose: "Give them a clear next step to begin their transformation."
+          format: "Direct, specific action that starts their journey."
+          examples:
+            - "Download the Zero-Inbox Playbook (link in bio)"
+            - "Get the Family Connection Guide - comment 'FAMILY'"
+            - "Grab the Content Strategy Template - DM me 'PLAN'"
+          note: "Make the first step feel achievable and valuable on its own."
+        
+        - name: "Success"
+          purpose: "Paint a picture of their life after using your solution."
+          format: "Specific, tangible outcomes they can visualize."
+          examples:
+            - "Imagine: inbox zero every Friday, weekends truly free, peace of mind restored"
+            - "Picture: device-free dinners, kids sharing their day, real conversations happening"
+            - "Envision: content calendar full for 3 months, consistent posting, growing engaged audience"
+          note: "Be specific about the transformation - help them see their new reality."
+        
+        - name: "Failure"
+          purpose: "Show what happens if they don't take action."
+          format: "Paint the stakes without using fear tactics."
+          examples:
+            - "Without a system: emails multiply, stress increases, burnout becomes inevitable"
+            - "Without boundaries: family dinners stay silent, connections weaken, kids drift away"
+            - "Without strategy: content stays scattered, growth stalls, your voice gets lost in the noise"
+          note: "Perfect for TikTok or carousel series; narrative structure boosts watch-time and engagement."
+      
+    formatting_checklist:
+      - "Use 1-2 relevant hashtags at the end"
+      - "Use emojis sparingly but effectively"

@@ -1,0 +1,358 @@
+twitter:
+    name: "Twitter/X"
+    
+    aida:
+      title: "AIDA Framework for Twitter/X"
+      components:
+        - name: "Attention (Hook)"
+          purpose: "Grab immediate attention in the timeline."
+          format: "Punchy opener, surprising fact, or provocative question."
+          examples:
+            - "I made $50K in 3 months selling nothing. Here's how:"
+            - "Most people get productivity completely wrong."
+            - "Your biggest career mistake? Playing it safe."
+          note: "Must capture attention within first few words due to fast scrolling."
+        
+        - name: "Interest (Setup)"
+          purpose: "Build curiosity and context quickly."
+          format: "Brief context or problem identification."
+          examples:  
+            - "Everyone talks about hustle culture, but nobody mentions the hidden cost."
+            - "I spent 2 years trying every productivity hack. Most were garbage."
+            - "The advice that changed my entire approach to business:"
+          note: "Keep concise due to character limits."
+        
+        - name: "Desire (Value)"
+          purpose: "Show the transformation or benefit."
+          format: "Specific outcome or insight."
+          examples:
+            - "Now I work 4 hours a day and earn more than my old 12-hour grind."
+            - "This single mindset shift doubled my close rate overnight."
+            - "The result: 10x growth in 6 months with half the stress."
+          note: "Focus on concrete, measurable outcomes."
+        
+        - name: "Action (CTA)"
+          purpose: "Drive engagement or follow-up action."
+          format: "Simple, direct call-to-action."
+          examples:
+            - "Retweet if this resonates."
+            - "What's been your biggest productivity game-changer?"
+            - "Follow for more contrarian business takes."
+          note: "Keep CTAs simple and conversation-focused."
+    
+    pas:
+      title: "PAS Framework for Twitter/X"
+      components:
+        - name: "Problem"
+          purpose: "Hit a nerve with a specific pain point."
+          format: "Punchy question or statement about the issue."
+          examples:
+            - "Your content gets 12 likes max?"
+            - "Still trading time for money in 2024?"
+            - "Followers but no sales?"
+          note: "Make it sharp and immediately relatable."
+        
+        - name: "Agitate"
+          purpose: "Twist the knife and show the real cost."
+          format: "Consequences, opportunity cost, or escalating frustration."
+          examples:
+            - "Every viral post you miss = 1000 potential customers gone."
+            - "While you're busy, others are building empires on autopilot."
+            - "Those followers will never buy if you keep posting random thoughts."
+          note: "Be direct and urgent, but not desperate."
+        
+        - name: "Solution"
+          purpose: "Deliver the fix in a tweet-sized solution."
+          format: "Actionable method or contrarian insight."
+          examples:
+            - "This 3-step content framework changed everything."
+            - "One mindset shift: sell outcomes, not features."
+            - "Stop posting. Start conversations. Here's how:"
+          note: "Make it feel like the missing piece they've been searching for."
+    
+    bab:
+      title: "BAB Framework for Twitter/X"
+      components:
+        - name: "Before"
+          purpose: "Capture the frustrating current state."
+          format: "Concise description of the problem or pain point."
+          examples:
+            - "Before: 10 hours of content creation for 20 likes."
+            - "Before: Cold emails with 2% open rates and zero responses."
+            - "Before: Burnout from chasing every productivity hack."
+          note: "Keep it punchy and immediately relatable due to character limits."
+        
+        - name: "After"
+          purpose: "Show the desired transformation."
+          format: "Clear, measurable outcome in tweet format."
+          examples:
+            - "After: 30-minute content blocks that drive real engagement."
+            - "After: 80% open rates and booked calendars from one email."
+            - "After: 4-hour workdays with 10x more impact."
+          note: "Use specific numbers and outcomes when possible."
+        
+        - name: "Bridge"
+          purpose: "Present the solution that enables the transformation."
+          format: "Direct, actionable method or insight."
+          examples:
+            - "Bridge: The content formula I stole from a 100K follower account."
+            - "Bridge: One subject line template that changed everything."
+            - "Bridge: This counterintuitive approach to deep work."
+          note: "Make the solution feel like an insider secret or unique insight."
+    
+    4cs:
+      title: "4 Cs Quality-Check Framework for Twitter/X"
+      components:
+        - name: "Clear"
+          purpose: "Make your point immediately obvious."
+          format: "Use simple words and direct statements."
+          examples:
+            - "Skip complex explanations: 'utilize' → 'use', 'facilitate' → 'help'"
+            - "One clear idea per tweet, not multiple thoughts"
+            - "Use active voice: 'I built this' not 'This was built by me'"
+          note: "Clarity beats cleverness every time on Twitter."
+        
+        - name: "Concise"
+          purpose: "Maximize impact within character limits."
+          format: "Cut every unnecessary word."
+          examples:
+            - "Remove redundancy: 'completely finished' → 'finished'"
+            - "Use contractions: 'I am' → 'I'm', 'you are' → 'you're'"
+            - "Replace phrases with single words: 'in spite of' → 'despite'"
+          note: "Every character counts, make them all work."
+        
+        - name: "Compelling"
+          purpose: "Stop the scroll and drive engagement."
+          format: "Hook with controversy, curiosity, or bold claims."
+          examples:
+            - "Controversial: 'College is the biggest scam in 2024'"
+            - "Curiosity: 'This productivity hack feels like cheating'"
+            - "Bold claim: 'I doubled my income by working half the hours'"
+          note: "Boring tweets die in the timeline, compelling ones go viral."
+        
+        - name: "Credible"
+          purpose: "Build authority with proof points."
+          format: "Include specific numbers and personal experience."
+          examples:
+            - "Specific metrics: '3x'd my revenue' not 'made more money'"
+            - "Time stamps: 'In 90 days' not 'recently'"
+            - "Personal proof: 'From my own experience' not 'people say'"
+          note: "Screenshots, numbers, and specifics build credibility fast."
+    
+    uuuu:
+      title: "UUUU / 4 U's Framework for Twitter/X"
+      components:
+        - name: "Urgent"
+          purpose: "Create immediate time pressure or scarcity."
+          format: "Time-sensitive language that demands quick action."
+          examples:
+            - "🚨 Last chance: free 'viral hook' checklist (49 words) drops in 2 h."
+            - "⏰ Only 24 hours left to grab this before it's gone forever."
+            - "🔥 Breaking: This loophole closes at midnight."
+          note: "Use countdown language and scarcity indicators to spike urgency."
+        
+        - name: "Useful"
+          purpose: "Provide clear, actionable value."
+          format: "Practical benefit or solution that solves real problems."
+          examples:
+            - "Get 10x more leads with this 30-second email template."
+            - "This 2-minute habit eliminated my procrastination forever."
+            - "Copy-paste this DM script that books 80% of calls."
+          note: "Focus on immediate, practical applications the audience can use today."
+        
+        - name: "Unique"
+          purpose: "Stand out from the noise with fresh angles."
+          format: "Contrarian take or uncommon approach."
+          examples:
+            - "Why successful people never set goals (and what they do instead)."
+            - "The networking strategy that feels like cheating."
+            - "This 'backwards' productivity method doubles output."
+          note: "Challenge conventional wisdom or reveal insider secrets."
+        
+        - name: "Ultra-specific"
+          purpose: "Use precise details that feel authentic and credible."
+          format: "Exact numbers, timeframes, and specific outcomes."
+          examples:
+            - "Gained 2,847 followers in 14 days using this exact posting schedule."
+            - "This 73-word email generated $18,500 in sales."
+            - "Increased CTR by 312% with one tiny subject line tweak."
+          note: "Oddly specific numbers feel more credible than round ones."
+    
+    pppp:
+      title: "PPPP / 4 Ps Framework for Twitter/X"
+      components:
+        - name: "Picture"
+          purpose: "Paint a vivid scene or scenario the audience recognizes."
+          format: "Set the stage with a relatable situation or visual."
+          examples:
+            - "Picture: a blank content calendar staring back at you."
+            - "Picture: Your DMs flooded with 'how did you do that?' messages."
+            - "Picture: Working 2 hours and earning more than your 8-hour days."
+          note: "Use scenarios your audience has experienced or dreams about."
+        
+        - name: "Promise"
+          purpose: "Make a clear commitment about the transformation ahead."
+          format: "Direct statement of what will change or improve."
+          examples:
+            - "Promise: never stare at that blank calendar again."
+            - "Promise: you'll have a system that runs itself."
+            - "Promise: this changes everything about how you work."
+          note: "Keep promises realistic but exciting, focused on outcomes."
+        
+        - name: "Proof"
+          purpose: "Provide evidence that validates the promise."
+          format: "Social proof, numbers, or credible testimonials."
+          examples:
+            - "Proof: 6,412 marketers already auto-fill their calendars with this."
+            - "Proof: Used by 3 Fortune 500 companies and 100+ solopreneurs."
+            - "Proof: Generated $2.3M in client results using this method."
+          note: "Use specific numbers and third-party validation when possible."
+        
+        - name: "Push"
+          purpose: "Drive the specific action you want them to take."
+          format: "Clear, simple call-to-action."
+          examples:
+            - "Push: comment 'PLAN' for the template."
+            - "Push: DM me 'SYSTEM' and I'll send the blueprint."
+            - "Push: RT if you want the step-by-step guide."
+          note: "Make the action feel easy and rewarding to complete."
+    
+    slap:
+      title: "SLAP Framework for Twitter/X"
+      components:
+        - name: "Stop"
+          purpose: "Interrupt the scroll with attention-grabbing opener."
+          format: "Direct command or pattern interrupt."
+          examples:
+            - "STOP scrolling 👋"
+            - "STOP what you're doing right now."
+            - "STOP believing this productivity myth."
+          note: "Use commanding language that breaks the scrolling pattern."
+        
+        - name: "Look"
+          purpose: "Direct attention to key insight or proof point."
+          format: "Present compelling evidence or revelation."
+          examples:
+            - "LOOK: one chart proves why 80% of reels flop."
+            - "LOOK: this screenshot shows my actual revenue."
+            - "LOOK: the data that changes everything."
+          note: "Make them focus on your most compelling piece of evidence."
+        
+        - name: "Act"
+          purpose: "Get immediate micro-commitment or engagement."
+          format: "Simple action that builds investment."
+          examples:
+            - "ACT: save this post."
+            - "ACT: screenshot this framework."
+            - "ACT: share if this opened your eyes."
+          note: "Low-friction actions that increase engagement and commitment."
+        
+        - name: "Purchase"
+          purpose: "Drive toward the main conversion goal."
+          format: "Clear path to monetization or deeper engagement."
+          examples:
+            - "PURCHASE: course link in first comment."
+            - "PURCHASE: DM me 'READY' for the full system."
+            - "PURCHASE: link in bio for the complete guide."
+          note: "Bridge the engagement to actual business outcomes."
+    
+    app:
+      title: "APP Framework for Twitter/X"
+      components:
+        - name: "Awareness"
+          purpose: "Acknowledge conventional wisdom everyone accepts."
+          format: "Start with commonly held belief or practice."
+          examples:
+            - "We all 'know' long captions die on social media."
+            - "Everyone says you need 10K followers to make money online."
+            - "The universal belief: more content = more engagement."
+          note: "Validate what your audience currently believes to be true."
+        
+        - name: "Problem"
+          purpose: "Reveal the flaw in conventional thinking."
+          format: "Present contradictory evidence or hidden issue."
+          examples:
+            - "But Instagram's algorithm actually favors long-form content."
+            - "Yet I made $50K with just 500 engaged followers."
+            - "But quality beats quantity every single time."
+          note: "Challenge the assumption with surprising facts or personal proof."
+        
+        - name: "Positioning"
+          purpose: "Offer the new way of thinking or solution."
+          format: "Present your contrarian approach or method."
+          examples:
+            - "Here's how to write 180-word captions that rank higher."
+            - "My strategy: build deep relationships, not vanity metrics."
+            - "The secret: one great post per week beats seven mediocre ones."
+          note: "Position yourself as the guide with the better way forward."
+    
+    storybrand:
+      title: "StoryBrand 7-Part Framework for Twitter/X"
+      components:
+        - name: "Character (Hero)"
+          purpose: "Establish the audience as the hero of the story."
+          format: "Position your audience as the main character with a goal."
+          examples:
+            - "You = hero with a messy inbox and zero productivity."
+            - "You're the entrepreneur drowning in content creation."
+            - "You = the creator stuck at 1K followers."
+          note: "Make your audience the protagonist, not your brand."
+        
+        - name: "Problem"
+          purpose: "Identify the challenge blocking their success."
+          format: "The obstacle preventing them from reaching their goal."
+          examples:
+            - "Your problem: emails pile up faster than you can respond."
+            - "The struggle: creating content feels like a full-time job."
+            - "Your enemy: the algorithm that hides your best work."
+          note: "Make the problem feel urgent and personally relevant."
+        
+        - name: "Guide"
+          purpose: "Position yourself as the mentor with authority."
+          format: "Establish credibility and empathy."
+          examples:
+            - "I've been there. Managed 50K+ emails in my corporate days."
+            - "As someone who grew 100K followers in 6 months..."
+            - "I cracked the code after 3 years of failed attempts."
+          note: "Show both expertise and understanding of their struggle."
+        
+        - name: "Plan"
+          purpose: "Present your simple, clear solution path."
+          format: "Break down your method into digestible steps."
+          examples:
+            - "My 3-step system: Filter → Batch → Automate."
+            - "The framework: Hook → Value → CTA (rinse and repeat)."
+            - "Simple process: Analyze → Optimize → Scale."
+          note: "Make success feel achievable with your roadmap."
+        
+        - name: "Call to Action"
+          purpose: "Tell them exactly what to do next."
+          format: "Direct, specific action that moves them forward."
+          examples:
+            - "Download the zero-inbox playbook (link in bio)."
+            - "DM me 'CONTENT' for the complete framework."
+            - "Join 5K+ creators using this system (link below)."
+          note: "Remove all friction from taking the next step."
+        
+        - name: "Success"
+          purpose: "Paint the picture of their transformed life."
+          format: "Show the positive outcome they'll achieve."
+          examples:
+            - "Result: Inbox zero in 30 minutes daily, stress-free evenings."
+            - "Outcome: Viral content on autopilot, revenue while you sleep."
+            - "Success: 10K followers who actually buy your stuff."
+          note: "Make the transformation feel tangible and desirable."
+        
+        - name: "Failure"
+          purpose: "Show the cost of not taking action."
+          format: "The pain that continues without your solution."
+          examples:
+            - "Without this: years more of email overwhelm and missed opportunities."
+            - "Skip this: stay stuck creating content that nobody sees."
+            - "Ignore this: watch competitors steal your audience."
+          note: "Create urgency by highlighting the cost of inaction."
+      
+    formatting_checklist:
+      - "Do not use hashtags"
+      - "Do not use emojis"
+      - "Consider thread format for complex topics"

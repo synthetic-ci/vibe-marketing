@@ -1,0 +1,330 @@
+instagram:
+    name: "Instagram"
+    
+    aida:
+      title: "AIDA Framework for Instagram"
+      components:
+        - name: "Attention (Visual + Caption Hook)"
+          purpose: "Stop the scroll with compelling visuals and caption opener."
+          format: "Eye-catching visual paired with intriguing first line."
+          examples:
+            - "POV: You just discovered the productivity hack that changed everything ✨"
+            - "This mistake is costing you thousands of followers..."
+            - "Plot twist: The secret wasn't what I expected 👀"
+          note: "Visual and first line must work together before 'more' cutoff."
+        
+        - name: "Interest (Story Setup)"
+          purpose: "Build curiosity and relatability through storytelling."
+          format: "Personal story, behind-the-scenes, or relatable scenario."
+          examples:
+            - "Last month I was overwhelmed, working 14-hour days, and feeling burnt out..."
+            - "Three years ago, I made this embarrassing mistake in front of 500 people..."
+            - "Everyone told me this was impossible, but I had to try..."
+          note: "Use line breaks and emojis to maintain visual appeal and readability."
+        
+        - name: "Desire (Transformation)"
+          purpose: "Show the outcome and paint the desired state."
+          format: "Before/after, results, or emotional transformation."
+          examples:
+            - "Now I have my evenings back, my stress is gone, and I'm earning 2x more 💰"
+            - "Fast forward to today: 50K followers, multiple income streams, total freedom ✨"
+            - "The result? I sleep better, feel more confident, and actually enjoy my work 🙌"
+          note: "Use emojis strategically to enhance the emotional impact."
+        
+        - name: "Action (Engagement CTA)"
+          purpose: "Drive specific Instagram engagement actions."
+          format: "Clear, actionable request using Instagram features."
+          examples:
+            - "Double tap if this resonates with you ❤️"
+            - "Save this post for when you need the reminder 🔖"
+            - "Comment your biggest challenge below and I'll help you solve it 👇"
+            - "Share this in your stories and tag someone who needs to see it ✨"
+          note: "Leverage Instagram's engagement features (likes, saves, comments, shares)."
+    
+    bab:
+      title: "BAB Framework for Instagram"
+      components:
+        - name: "Before"
+          purpose: "Show the relatable struggle or current state."
+          format: "Visual story or description of the problem with emojis."
+          examples:
+            - "Before: Posting daily but growing slower than a snail 🐌"
+            - "Before: Beautiful content, crickets in the comments 🦗"
+            - "Before: Comparing myself to everyone and feeling behind 😩"
+          note: "Use visuals and emojis to enhance the emotional connection."
+        
+        - name: "After"
+          purpose: "Paint the transformation with aspirational visuals."
+          format: "Inspiring outcome with visual elements and emojis."
+          examples:
+            - "After: Strategic posts that spark conversations and real connections ✨"
+            - "After: Engaged community that can't wait for my next post 💕"
+            - "After: Confidence in my unique voice and authentic growth 🌟"
+          note: "Make it visually appealing and emotionally resonant."
+        
+        - name: "Bridge"
+          purpose: "Present the method or solution that creates the transformation."
+          format: "Clear solution with actionable elements and visual appeal."
+          examples:
+            - "Bridge: The content strategy that changed my entire game 🎯"
+            - "Bridge: This engagement technique I learned from a 1M+ account 🔥"
+            - "Bridge: The mindset shift that unlocked authentic growth 🗝️"
+          note: "Position as the key insight or method that makes the difference."
+      
+    4cs:
+      title: "4 Cs Quality-Check Framework for Instagram"
+      components:
+        - name: "Clear"
+          purpose: "Ensure your message shines through the visual noise."
+          format: "Simple language that complements your visuals."
+          examples:
+            - "Match captions to visuals: clear photos = clear message"
+            - "Use simple words over complex ones: 'help' not 'facilitate'"
+            - "One main message per post, let visuals support it"
+          note: "Your caption should enhance, not confuse your visual story."
+        
+        - name: "Concise"
+          purpose: "Respect the scroll speed of Instagram users."
+          format: "Tight writing with strategic line breaks."
+          examples:
+            - "Front-load value in the first 2 lines before 'more' cutoff"
+            - "Use line breaks instead of long paragraphs"
+            - "Cut filler words: 'really', 'very', 'actually', 'just'"
+          note: "Make every line count or your audience will keep scrolling."
+        
+        - name: "Compelling"
+          purpose: "Create scroll-stopping, save-worthy content."
+          format: "Emotional hooks with visual storytelling."
+          examples:
+            - "Personal stakes: 'This mistake cost me my dream job'"
+            - "Transformation tease: 'The before/after will shock you'"
+            - "Insider secrets: 'What they don't tell you about...'"
+          note: "Compelling content gets saved, shared, and comes back to mind."
+        
+        - name: "Credible"
+          purpose: "Build trust through authentic storytelling."
+          format: "Real results with visual proof when possible."
+          examples:
+            - "Show receipts: screenshots of results, before/after photos"
+            - "Admit struggles: 'This took me 6 tries to get right'"
+            - "Specific numbers: '47% increase' not 'significant growth'"
+          note: "Authenticity and proof build Instagram authority."
+    
+    uuuu:
+      title: "UUUU / 4 U's Framework for Instagram"
+      components:
+        - name: "Urgent"
+          purpose: "Create time-sensitive pressure to drive immediate action."
+          format: "Time-bound language with urgency indicators."
+          examples:
+            - "🚨 Last chance: free 'viral hook' checklist drops in 2 hours"
+            - "⏰ Only 24 hours left to grab this before it's gone"
+            - "🔥 Breaking: This changes everything (but only for the next 12h)"
+          note: "Perfect for stories, reels, and time-sensitive offers."
+        
+        - name: "Useful"
+          purpose: "Promise immediate practical value that serves the audience."
+          format: "Clear benefit or solution to a real problem."
+          examples:
+            - "The productivity hack that saves 3 hours daily"
+            - "Free template that 10x'd my engagement rate"
+            - "One trick that fixed my sleep in 7 days"
+          note: "Focus on actionable value they can implement immediately."
+        
+        - name: "Unique"
+          purpose: "Stand out from the noise with a fresh angle or approach."
+          format: "Contrarian viewpoint or uncommon solution."
+          examples:
+            - "The Instagram 'rule' I broke to gain 50k followers"
+            - "Why everyone's growth advice is backwards (and what works)"
+            - "The weird habit that 10x'd my productivity"
+          note: "Challenge conventional wisdom or reveal insider secrets."
+        
+        - name: "Ultra-specific"
+          purpose: "Use precise details to boost credibility and intrigue."
+          format: "Exact numbers, timeframes, or specific outcomes."
+          examples:
+            - "49-word checklist that went viral 847 times"
+            - "The 3.7-second trick that doubled my saves"
+            - "Why 47% of creators fail (and the 12% who don't)"
+          note: "Specificity cuts through generic content and builds trust."
+    
+    pppp:
+      title: "PPPP (4 Ps) Framework for Instagram"
+      components:
+        - name: "Picture"
+          purpose: "Paint a vivid scene or scenario your audience can visualize."
+          format: "Relatable situation or visual scenario setup."
+          examples:
+            - "Picture: a blank content calendar staring back at you"
+            - "Picture: 3am, scrolling through competitors' viral posts"
+            - "Picture: your DMs flooding with collaboration requests"
+          note: "Create an immediate mental image that hooks attention."
+        
+        - name: "Promise"
+          purpose: "Make a clear commitment about what you'll deliver."
+          format: "Specific outcome or transformation you guarantee."
+          examples:
+            - "Promise: never stare at that blank calendar again"
+            - "Promise: content ideas that write themselves"
+            - "Promise: turn your expertise into recurring income"
+          note: "Be bold but realistic with what you can actually deliver."
+        
+        - name: "Proof"
+          purpose: "Provide evidence that your promise is achievable."
+          format: "Social proof, numbers, or credible testimonials."
+          examples:
+            - "Proof: 6,412 marketers already auto-fill their calendars"
+            - "Proof: my students gained 245k followers combined"
+            - "Proof: screenshot of my $47k month using this method"
+          note: "Concrete evidence builds trust and reduces skepticism."
+        
+        - name: "Push"
+          purpose: "Direct the audience toward a specific next action."
+          format: "Clear call-to-action using Instagram engagement features."
+          examples:
+            - "Push: comment 'PLAN' for the free template"
+            - "Push: save this post and DM me 'READY' to start"
+            - "Push: share your biggest content struggle below"
+          note: "Make the next step crystal clear and Instagram-native."
+    
+    slap:
+      title: "SLAP Framework for Instagram"
+      components:
+        - name: "Stop"
+          purpose: "Interrupt the scroll pattern with attention-grabbing opener."
+          format: "Direct command or pattern interrupt with visual elements."
+          examples:
+            - "STOP scrolling 👋"
+            - "STOP what you're doing right now ✋"
+            - "STOP believing this myth 🚫"
+          note: "Built for bite-sized social copy that demands immediate attention."
+        
+        - name: "Look"
+          purpose: "Direct attention to the key insight or revelation."
+          format: "Present the compelling evidence or shocking truth."
+          examples:
+            - "LOOK: one chart proves why 80% of reels flop"
+            - "LOOK: this screenshot shows the real algorithm secret"
+            - "LOOK: 47 creators tested this and here's what happened"
+          note: "Use visual proof or surprising statistics to maintain engagement."
+        
+        - name: "Act"
+          purpose: "Give a simple, immediate action they can take right now."
+          format: "Single, clear instruction using Instagram features."
+          examples:
+            - "ACT: save this post for later reference"
+            - "ACT: double-tap if this opened your eyes"
+            - "ACT: comment your biggest struggle below"
+          note: "Keep the action simple and native to Instagram's interface."
+        
+        - name: "Purchase"
+          purpose: "Present the next-level solution or deeper engagement."
+          format: "Soft sell or value-driven offer that feels natural."
+          examples:
+            - "PURCHASE: course link in first comment"
+            - "PURCHASE: free masterclass in my bio"
+            - "PURCHASE: DM 'READY' for the complete blueprint"
+          note: "Position as the logical next step, not a hard sell."
+    
+    app:
+      title: "APP Framework for Instagram"
+      components:
+        - name: "Awareness"
+          purpose: "Acknowledge the conventional wisdom or common belief."
+          format: "Start with what everyone already 'knows' or believes."
+          examples:
+            - "We all 'know' long captions die on Instagram"
+            - "Everyone says posting daily is the key to growth"
+            - "The common advice is to use trending audio"
+          note: "New-school opener that reframes conventional wisdom."
+        
+        - name: "Problem"
+          purpose: "Reveal the flaw or contradiction in that conventional wisdom."
+          format: "Show why the common belief is incomplete or wrong."
+          examples:
+            - "But Instagram saves favor long, valuable reads"
+            - "But daily posting without strategy just creates noise"
+            - "But trending audio won't save bad content"
+          note: "Create cognitive dissonance that makes them rethink assumptions."
+        
+        - name: "Positioning"
+          purpose: "Present your unique solution or reframed approach."
+          format: "Offer the new way of thinking or superior method."
+          examples:
+            - "Here's how to write 180-word captions that actually rank"
+            - "Here's the quality-over-quantity approach that works"
+            - "Here's how to make ANY audio work for your content"
+          note: "Position yourself as the thought leader with better insights."
+    
+    storybrand:
+      title: "StoryBrand (7-Part Hero's Journey) Framework for Instagram"
+      components:
+        - name: "Character (Hero)"
+          purpose: "Introduce your audience as the hero of their own story."
+          format: "Relatable character facing a challenge or desire."
+          examples:
+            - "You = busy entrepreneur with a messy inbox drowning in emails"
+            - "You = content creator staring at a blank content calendar"
+            - "You = small business owner struggling to get noticed online"
+          note: "Perfect for TikTok or carousel series; narrative glue boosts watch-time."
+        
+        - name: "Problem"
+          purpose: "Identify the external, internal, and philosophical problems."
+          format: "Multi-layered problem that creates real stakes."
+          examples:
+            - "External: 200+ unread emails. Internal: overwhelm & stress. Philosophical: you deserve better work-life balance"
+            - "External: low engagement. Internal: imposter syndrome. Philosophical: your message matters"
+            - "External: invisible online. Internal: frustration. Philosophical: every business deserves to be seen"
+          note: "Layer the problems to create deeper emotional connection."
+        
+        - name: "Guide"
+          purpose: "Position yourself as the experienced guide who can help."
+          format: "Establish authority through empathy and expertise."
+          examples:
+            - "I've been there - used to spend 4 hours daily on email until I discovered..."
+            - "After helping 500+ creators build their audience, I learned..."
+            - "Having grown 3 businesses from 0 to 6-figures, I know..."
+          note: "Show you understand their struggle and have the solution."
+        
+        - name: "Plan"
+          purpose: "Present a clear, simple 3-step process to success."
+          format: "Easy-to-follow roadmap that removes confusion."
+          examples:
+            - "Step 1: Audit your inbox. Step 2: Set up filters. Step 3: Batch process daily"
+            - "Step 1: Find your niche. Step 2: Create your content pillars. Step 3: Post consistently"
+            - "Step 1: Optimize your profile. Step 2: Engage strategically. Step 3: Scale with systems"
+          note: "Keep it simple - 3 steps maximum for Instagram attention spans."
+        
+        - name: "Call to Action"
+          purpose: "Give them a clear next step to begin their transformation."
+          format: "Specific, low-risk action using Instagram features."
+          examples:
+            - "Ready to reclaim your time? Comment 'INBOX' for the free template"
+            - "Want to never run out of content ideas? Save this post and DM 'CONTENT'"
+            - "Ready to get noticed? Share this post and tag 2 business friends"
+          note: "Make the first step feel achievable and Instagram-native."
+        
+        - name: "Success"
+          purpose: "Paint the picture of their life after transformation."
+          format: "Aspirational outcome that motivates action."
+          examples:
+            - "Imagine: inbox zero by 5pm, evenings free, stress replaced with confidence"
+            - "Picture: engaged followers, viral content, brand partnerships flooding in"
+            - "Envision: fully booked calendar, dream clients, business thriving"
+          note: "Make success feel tangible and emotionally compelling."
+        
+        - name: "Failure"
+          purpose: "Show the cost of inaction to motivate immediate action."
+          format: "Consequences of staying stuck in the current situation."
+          examples:
+            - "Without this system: more late nights, missed opportunities, burnout inevitable"
+            - "Stay stuck: watch competitors grow while you struggle with crickets"
+            - "Do nothing: remain invisible while others build the business you want"
+          note: "Create urgency without being manipulative - show real consequences."
+      
+    formatting_checklist:
+      - "Use 3-5 relevant hashtags at the end"
+      - "Use emojis sparingly but effectively"
+      - "Include line breaks for readability"
+      - "Keep caption under 2,200 characters"

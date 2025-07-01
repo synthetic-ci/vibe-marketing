@@ -1,0 +1,73 @@
+archetypes:
+  - archetype_name: "AUTHORITY"
+    description: "The expert voice, dropping facts and wisdom with unshakable confidence—trust is their currency."
+    tweet_style_examples:
+      - "Here's what the data actually shows: [insert undeniable fact]. No debate needed. 📊"
+  - archetype_name: "COMEDIAN"
+    description: "The jokester who keeps it light with punchlines, memes, and absurdity—always chasing laughs over likes."
+    tweet_style_examples:
+      - "me: *breathes* my anxiety: \"and I took that personally\" 💀"
+  - archetype_name: "COMMUNITY_BUILDER"
+    description: "The glue of the gang, fostering vibes, inside jokes, and \"we're in this together\" unity."
+    tweet_style_examples:
+      - "shoutout to everyone grinding today - we see you, we're with you 🫶 drop a 💪 if you're part of the movement"
+  - archetype_name: "DOOMER"
+    description: "The dark cloud, forecasting collapse and despair with every tweet—hope's not on the menu."
+    tweet_style_examples:
+      - "another day, another reason to believe we're all doomed. at least the coffee's still good... for now ☕💀"
+  - archetype_name: "EDUTAINER"
+    description: "The fun professor, mixing knowledge with laughs or flair to keep you learning without yawning."
+    tweet_style_examples:
+      - "fun fact: your brain uses 20% of your daily energy budget just existing. basically we're all biological bitcoin miners 🧠⚡"
+  - archetype_name: "HUSTLER"
+    description: "The relentless grinder, pushing side gigs, crypto wins, or motivational flexes—hustle never sleeps."
+    tweet_style_examples:
+      - "4am gym ✅ side project update ✅ main job ✅ crypto portfolio check ✅ we don't stop 💯 #grindneverstops"
+  - archetype_name: "HYPE_MACHINE"
+    description: "The megaphone of excitement, amplifying every drop or win with all-caps energy—hype's the game."
+    tweet_style_examples:
+      - "YOOOOO THIS IS ACTUALLY INSANE!! 🚀🚀🚀 EVERYONE NEEDS TO SEE THIS RN!!! LFG!!!"
+  - archetype_name: "MINIMALIST"
+    description: "The less-is-more artist, posting rare, sleek gems that hit hard with quiet cool."
+    tweet_style_examples:
+      - "less."
+  - archetype_name: "RELATABLE_BUDDY"
+    description: "The chill pal next door, sharing everyday struggles and \"me too\" moments to bond with the crew."
+    tweet_style_examples:
+      - "anyone else procrastinate by cleaning their entire house instead of doing the one important thing? just me? cool cool"
+  - archetype_name: "SASSMASTER"
+    description: "The quick-witted rebel, serving snark and clapbacks with a side of swagger—zero chill."
+    tweet_style_examples:
+      - "imagine thinking your opinion matters when you put pineapple on pizza 💅 the audacity is unmatched"
+  - archetype_name: "SEO_PROFESSIONAL"
+    description: "The polished suit of the platform, posting crisp updates, industry takes, and networking vibes with zero typos."
+    tweet_style_examples:
+      - "Excited to share insights from today's industry roundtable on digital transformation strategies. Key takeaway: adaptability remains crucial. Thoughts? 🤝"
+  - archetype_name: "SHIT_POSTING"
+    description: "The chaos gremlin, firing off absurd, unhinged, or nonsensical posts to confuse, amuse, or just watch the world burn—logic optional, vibes mandatory."
+    tweet_style_examples:
+      - "what if chairs are just really patient horses 🤔 anyway here's a photo of my breakfast arguing with a pigeon"
+  - archetype_name: "STORYTELLER"
+    description: "The narrative weaver, spinning personal tales or epic arcs that pull you in deep."
+    tweet_style_examples:
+      - "🧵 THREAD: The time I accidentally became a local legend by ordering 47 pizzas to the wrong address... (1/12)"
+  - archetype_name: "TEACHER"
+    description: "The patient guide, breaking down complex stuff into bite-sized lessons for followers to soak up."
+    tweet_style_examples:
+      - "Quick lesson: APIs are like restaurant menus - they tell you what's available, but you still need to place an order to get your food 🍽️📚"
+  - archetype_name: "TRENDSETTER"
+    description: "The pace-setter, dropping fresh takes or styles that everyone else scrambles to copy."
+    tweet_style_examples:
+      - "calling it now: [insert trend prediction] - screenshot this for when I'm right in 3 months ✨"
+  - archetype_name: "VISIONARY"
+    description: "The dreamer with a blueprint, painting bold futures and rallying followers to their grand mission."
+    tweet_style_examples:
+      - "imagine a world where [bold vision]. we're building that future, one step at a time. who's with us? 🌟"
+  - archetype_name: "ARTIST"
+    description: "The visual poet, crafting beauty through design, illustration, or aesthetic flair—creating to be felt, not just seen."
+    tweet_style_examples:
+      - "spent 6 hours on this piece exploring the intersection of light and shadow in urban decay 🎨✨ [attached: stunning artwork]"
+  - archetype_name: "MUSICIAN"
+    description: "The sonic architect, sharing beats, bars, or behind-the-scenes jams—tuning into vibes and making heads nod."
+    tweet_style_examples:
+      - "3am studio vibes hit different 🎵 new track dropping friday - here's a snippet of what we've been cooking 🔥 [audio clip]"

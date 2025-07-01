@@ -1,0 +1,233 @@
+networks:
+  twitter:
+    name: "Twitter/X"
+    categories:
+      engagement:
+        name: "Engagement Hooks"
+        hooks:
+          - "What's your hot take on [topic]?"
+          - "Unpopular opinion: [controversial statement]"
+          - "This or that: [option A] vs [option B]?"
+          - "Fill in the blank: The best part of [topic] is ____"
+          - "Rate this take from 1-10: [statement]"
+          - "What's everyone getting wrong about [topic]?"
+      
+      educational:
+        name: "Educational Content"
+        hooks:
+          - "🧵 Thread: Everything you need to know about [topic]"
+          - "5 things I wish I knew about [topic] when I started"
+          - "The mistake everyone makes with [topic] (and how to fix it)"
+          - "Here's what [number] years of [experience] taught me:"
+          - "Breaking down [complex topic] in simple terms:"
+          - "The [topic] guide nobody talks about:"
+      
+      promotional:
+        name: "Promotional Content"
+        hooks:
+          - "Just launched [product/service] - here's why you'll love it:"
+          - "Behind the scenes of creating [product/project]"
+          - "From idea to launch: My [product] journey"
+          - "Why I built [product] (and why you need it)"
+          - "The problem that led me to create [solution]"
+      
+      storytelling:
+        name: "Storytelling"
+        hooks:
+          - "A year ago, I was [situation]. Today, [transformation]"
+          - "The moment everything changed for me:"
+          - "My biggest failure taught me this:"
+          - "Plot twist: [unexpected revelation]"
+          - "The conversation that changed my perspective:"
+
+  instagram:
+    name: "Instagram"
+    categories:
+      engagement:
+        name: "Engagement Hooks"
+        hooks:
+          - "Double tap if you agree with this..."
+          - "Comment your favorite [category] below 👇"
+          - "Save this post if you found it helpful!"
+          - "Which one are you? A, B, or C?"
+          - "Tell me in the comments: What's your experience with [topic]?"
+          - "Swipe to see the transformation ➡️"
+      
+      educational:
+        name: "Educational Content"
+        hooks:
+          - "Here's what I learned after [time period] of [activity]"
+          - "The top 5 mistakes people make with [topic]"
+          - "Swipe for the step-by-step process"
+          - "Before vs. After: My [journey/transformation]"
+          - "The [topic] guide you've been waiting for"
+          - "Everything you need to know about [topic] in one post"
+      
+      lifestyle:
+        name: "Lifestyle Content"
+        hooks:
+          - "A day in my life as a [profession/role]"
+          - "Get ready with me for [event/situation]"
+          - "What I eat in a day as a [lifestyle choice]"
+          - "My morning routine that changed my life"
+          - "Weekend vibes: Here's how I [activity]"
+      
+      promotional:
+        name: "Promotional Content"
+        hooks:
+          - "I'm obsessed with this [product/service]"
+          - "Link in bio for [offer/product] 🔗"
+          - "Use my code [CODE] for [discount]"
+          - "Can't believe this [product] exists"
+          - "This [product] changed my [routine/life]"
+
+  linkedin:
+    name: "LinkedIn"
+    categories:
+      professional:
+        name: "Professional Insights"
+        hooks:
+          - "After [number] years in [industry], here's what I've learned:"
+          - "The career advice I wish someone gave me earlier:"
+          - "Why I left my [job title] to pursue [new path]"
+          - "The interview question that stumped me (and how I'd answer it now)"
+          - "My biggest professional mistake and what it taught me"
+          - "The skill that transformed my career:"
+      
+      networking:
+        name: "Networking & Community"
+        hooks:
+          - "Looking to connect with fellow [professionals/industry]"
+          - "Grateful for the amazing [community/team] I work with"
+          - "Shoutout to [person/company] for [achievement]"
+          - "Who else is attending [event/conference]?"
+          - "Would love to hear your thoughts on [topic]"
+      
+      educational:
+        name: "Educational Content"
+        hooks:
+          - "The [industry] trend everyone's talking about:"
+          - "5 lessons from my latest [project/experience]"
+          - "Here's how [strategy/method] improved our [results]"
+          - "The framework I use for [process/decision]"
+          - "Breaking down [complex topic] for [audience]"
+      
+      thought_leadership:
+        name: "Thought Leadership"
+        hooks:
+          - "Unpopular opinion in [industry]: [statement]"
+          - "The future of [industry] depends on [factor]"
+          - "Why [trend/practice] is actually harmful"
+          - "The conversation [industry] needs to have:"
+          - "My prediction for [industry] in [timeframe]:"
+
+  tiktok:
+    name: "TikTok"
+    categories:
+      trending:
+        name: "Trending Content"
+        hooks:
+          - "POV: You're [situation/role]"
+          - "Tell me you're [type] without telling me you're [type]"
+          - "This trend but make it [niche/industry]"
+          - "Rating [category] as someone who [expertise]"
+          - "Things that just make sense"
+      
+      educational:
+        name: "Educational Content"
+        hooks:
+          - "[Topic] 101: Everything you need to know"
+          - "Things I wish I knew before [activity/decision]"
+          - "Red flags in [industry/situation]"
+          - "How to [skill/task] like a pro"
+          - "The [topic] iceberg explained"
+      
+      entertainment:
+        name: "Entertainment"
+        hooks:
+          - "The audacity of [situation/person]"
+          - "When [relatable situation] happens"
+          - "Me explaining [topic] to my [audience]"
+          - "The evolution of [trend/topic]"
+          - "Reacting to [content/situation]"
+      
+      behind_scenes:
+        name: "Behind the Scenes"
+        hooks:
+          - "Day in my life as a [profession]"
+          - "What [job/role] really looks like"
+          - "The process behind [product/service]"
+          - "Building [project] from scratch"
+          - "What nobody tells you about [career/situation]"
+
+  youtube:
+    name: "YouTube"
+    categories:
+      tutorial:
+        name: "Tutorial Content"
+        hooks:
+          - "How to [skill/task] in [time] minutes"
+          - "The complete beginner's guide to [topic]"
+          - "Step-by-step: [process/project]"
+          - "[Topic] tutorial that actually works"
+          - "Master [skill] with this simple method"
+      
+      review:
+        name: "Review Content"
+        hooks:
+          - "Honest review: [product/service] after [time period]"
+          - "Is [product/service] worth the hype?"
+          - "Comparing [option A] vs [option B]"
+          - "Testing [product/method] so you don't have to"
+          - "The truth about [topic/product]"
+      
+      vlog:
+        name: "Vlog Content"
+        hooks:
+          - "A week in my life as a [profession/role]"
+          - "My [routine/process] revealed"
+          - "Following [trend/challenge] for [timeframe]"
+          - "The journey to [goal/achievement]"
+          - "Documenting my [project/transformation]"
+      
+      entertainment:
+        name: "Entertainment"
+        hooks:
+          - "Reacting to [content/trend]"
+          - "The [topic] tier list nobody asked for"
+          - "Trying [activity/challenge] for the first time"
+          - "Guess the [category] challenge"
+          - "The most [adjective] [topic] compilation"
+
+categories:
+  global:
+    engagement:
+      description: "Hooks designed to encourage audience interaction and participation"
+      keywords: ["questions", "polls", "comments", "shares", "saves"]
+    
+    educational:
+      description: "Hooks for sharing knowledge, tips, and valuable information"
+      keywords: ["tutorials", "guides", "lessons", "tips", "how-to"]
+    
+    promotional:
+      description: "Hooks for marketing products, services, or personal brand"
+      keywords: ["products", "services", "offers", "launches", "sales"]
+    
+    storytelling:
+      description: "Narrative hooks that share personal experiences and journeys"
+      keywords: ["stories", "experiences", "journeys", "transformations"]
+    
+    trending:
+      description: "Hooks that tap into current trends and viral content"
+      keywords: ["viral", "trending", "memes", "challenges", "popular"]
+    
+    professional:
+      description: "Business and career-focused content hooks"
+      keywords: ["career", "business", "professional", "industry", "work"]
+
+usage_tips:
+  customization: "Replace bracketed placeholders [like this] with your specific content"
+  mixing: "Combine elements from different categories for unique approaches"
+  testing: "A/B test different hooks to see what resonates with your audience"
+  authenticity: "Modify hooks to match your brand voice and personality"
+  timing: "Consider platform-specific optimal posting times when using these hooks" 
