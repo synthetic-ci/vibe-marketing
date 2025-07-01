@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  vibe-marketing-mcp:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      # Uncomment and set if you have a HyperFeed API key
+      # - HYPERFEED_API_KEY=your_api_key_here
+    volumes:
+      # Optional: mount source code for development
+      - ./src:/app/src
+      - ./dist:/app/dist 

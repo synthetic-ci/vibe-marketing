@@ -2,7 +2,7 @@ export { findHooksHandler, findHooksToolDefinition } from "./findHooksTool.js";
 export {
 	flagProblematicPhrasesHandler,
 	flagProblematicPhrasesToolDefinition,
-} from "./flagProblematicPhrasesTool";
+} from "./flagProblematicPhrasesTool.js";
 export {
 	getArchetypeHandler,
 	getArchetypeToolDefinition,

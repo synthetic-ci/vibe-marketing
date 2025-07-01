@@ -10,9 +10,4 @@ export interface UserProps extends Record<string, unknown> {
 	tokenSet: TokenSet;
 }
 
-export interface ClerkAuthRequest {
-	mcpAuthRequest: import("@cloudflare/workers-oauth-provider").AuthRequest;
-	transactionState: string;
-	consentToken: string;
-	codeVerifier?: string;
-}
+
