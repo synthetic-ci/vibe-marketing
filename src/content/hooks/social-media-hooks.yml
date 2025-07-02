@@ -11,7 +11,14 @@ networks:
           - "Fill in the blank: The best part of [topic] is ____"
           - "Rate this take from 1-10: [statement]"
           - "What's everyone getting wrong about [topic]?"
-      
+          - "Describe [topic] using only emojis:"
+          - "Pick one to keep, delete the rest: [items]"
+          - "If you could ask [expert] one question, what would it be?"
+          - "Predict the next big thing in [industry]"
+          - "Yes or no: [provocative question]"
+          - "One myth about [topic] that needs to die:"
+          - "Caption this GIF: [description]"
+
       educational:
         name: "Educational Content"
         hooks:
@@ -21,7 +28,14 @@ networks:
           - "Here's what [number] years of [experience] taught me:"
           - "Breaking down [complex topic] in simple terms:"
           - "The [topic] guide nobody talks about:"
-      
+          - "Thread: 7 myths about [topic], debunked"
+          - "Checklist: Do these steps before [task]"
+          - "One chart that explains [trend]"
+          - "Case study: How [company] solved [problem]"
+          - "Mini-guide: Choosing the right [tool] for [situation]"
+          - "FAQ: Your top questions about [topic] answered"
+          - "Timeline: How [topic] evolved over time"
+
       promotional:
         name: "Promotional Content"
         hooks:
@@ -30,7 +44,15 @@ networks:
           - "From idea to launch: My [product] journey"
           - "Why I built [product] (and why you need it)"
           - "The problem that led me to create [solution]"
-      
+          - "Limited-time offer: Get [discount]% off [product] until [date]"
+          - "Feature spotlight: How [feature] saves you [benefit]"
+          - "Demo clip: Watch [product] in action"
+          - "Meet the team behind [product]:"
+          - "Early adopters wanted: Join our beta for [perk]"
+          - "Milestone unlocked: [number] users and counting!"
+          - "Customer story: [testimonial]"
+          - "Upgrade alert: New version of [product] drops today"
+
       storytelling:
         name: "Storytelling"
         hooks:
@@ -39,6 +61,14 @@ networks:
           - "My biggest failure taught me this:"
           - "Plot twist: [unexpected revelation]"
           - "The conversation that changed my perspective:"
+          - "I almost quit, but then [turning point]"
+          - "From [humble beginning] to [achievement] in [timeframe]"
+          - "That time I broke production at [company]:"
+          - "The biggest lesson from my worst boss:"
+          - "I gambled on [decision]—here's what happened"
+          - "3 words that changed my life:"
+          - "If I could tell my younger self one thing, it would be:"
+          - "My morning routine used to be [bad habit]; now it's [new habit] and [result]"
 
   instagram:
     name: "Instagram"
@@ -52,6 +82,13 @@ networks:
           - "Which one are you? A, B, or C?"
           - "Tell me in the comments: What's your experience with [topic]?"
           - "Swipe to see the transformation ➡️"
+          - "Tag someone who needs to see this!"
+          - "Would you try this? Yes or No?"
+          - "Guess the [answer] in the comments!"
+          - "Caption this photo! 🖋️"
+          - "Poll time: [question] 🤔"
+          - "Describe [topic] using only emojis:"
+          - "Pick one photo to print: 1️⃣ or 2️⃣?"
       
       educational:
         name: "Educational Content"
@@ -62,6 +99,13 @@ networks:
           - "Before vs. After: My [journey/transformation]"
           - "The [topic] guide you've been waiting for"
           - "Everything you need to know about [topic] in one post"
+          - "Carousel: 7 hacks for [topic]"
+          - "Quick tip: Stop doing this with [topic]"
+          - "Swipe left to bust 3 myths about [topic]"
+          - "Mini-tutorial: How to [task] in 3 steps"
+          - "Bookmark this checklist for [process]"
+          - "One chart that explains [trend]"
+          - "Did you know? [stat/fact]"
       
       lifestyle:
         name: "Lifestyle Content"
@@ -71,6 +115,13 @@ networks:
           - "What I eat in a day as a [lifestyle choice]"
           - "My morning routine that changed my life"
           - "Weekend vibes: Here's how I [activity]"
+          - "Night routine for better sleep 💤"
+          - "Come thrift shopping with me 🛍️"
+          - "Travel diary: 24 hours in [city]"
+          - "Behind the scenes of a content day"
+          - "Monthly favorites: [items]"
+          - "Budget-friendly version of my [habit]"
+          - "My go-to [fitness] playlist 🔥"
       
       promotional:
         name: "Promotional Content"
@@ -80,6 +131,13 @@ networks:
           - "Use my code [CODE] for [discount]"
           - "Can't believe this [product] exists"
           - "This [product] changed my [routine/life]"
+          - "Early access starts now! Tap the link ⬆️"
+          - "Giveaway time! Win [prize] by following + commenting 🎁"
+          - "Sneak peek of our upcoming [product]"
+          - "Restock alert: [item] is back!"
+          - "Testimonials: Real results from real users"
+          - "Limited-edition drop — only [number] left!"
+          - "Flash sale for the next 24 hours 🚨"
 
   linkedin:
     name: "LinkedIn"
@@ -93,6 +151,14 @@ networks:
           - "The interview question that stumped me (and how I'd answer it now)"
           - "My biggest professional mistake and what it taught me"
           - "The skill that transformed my career:"
+          - "Why soft skills matter more than you think in [industry]"
+          - "Moving from [role] to [role]: key differences I didn't expect"
+          - "The best investment I've made in my career (and it cost under $100)"
+          - "Three questions I ask myself before accepting any new role"
+          - "How mentoring junior talent leveled up my own skills"
+          - "The moment imposter syndrome nearly derailed my promotion"
+          - "If I could redo my first year in [industry], I'd focus on ______"
+          - "My top productivity hack that doesn't involve more hours"
       
       networking:
         name: "Networking & Community"
@@ -102,6 +168,14 @@ networks:
           - "Shoutout to [person/company] for [achievement]"
           - "Who else is attending [event/conference]?"
           - "Would love to hear your thoughts on [topic]"
+          - "Let's build a support circle for [goal/skill]—drop a comment if you're in"
+          - "Thank you, [mentor], for opening doors I didn't know existed"
+          - "Celebrating the wins of my colleagues at [company]"
+          - "Open to collaborating on [project type]—DM me!"
+          - "Anyone hiring for [role]? Happy to refer great talent"
+          - "What meetup groups in [city] do you recommend?"
+          - "If we've met virtually but not in person, let's grab coffee at [event]"
+          - "Sending kudos to those driving change in [field]—tag someone inspiring"
       
       educational:
         name: "Educational Content"
@@ -111,6 +185,14 @@ networks:
           - "Here's how [strategy/method] improved our [results]"
           - "The framework I use for [process/decision]"
           - "Breaking down [complex topic] for [audience]"
+          - "Demystifying KPIs: the 3 metrics that actually matter in [area]"
+          - "Step-by-step: How we reduced churn by [percentage] in 90 days"
+          - "Case study: Implementing [technology] across a team of [size]"
+          - "Swipeable framework: SMARTER goals for [context]"
+          - "From data to decision: my workflow for evidence-based strategy"
+          - "Explainer: Why [regulation] impacts your business more than you think"
+          - "Quick tip: Avoid this common pitfall when adopting [tool]"
+          - "My favorite resources for mastering [skill]"
       
       thought_leadership:
         name: "Thought Leadership"
@@ -120,6 +202,14 @@ networks:
           - "Why [trend/practice] is actually harmful"
           - "The conversation [industry] needs to have:"
           - "My prediction for [industry] in [timeframe]:"
+          - "It's time we stop glorifying hustle culture in [industry]"
+          - "Hybrid work isn't the future—it's the present we're ignoring"
+          - "AI won't replace jobs, but leaders who ignore it will fade"
+          - "If I were starting a company today, I'd ban [practice]"
+          - "Ethics shouldn't be an afterthought in [technology]"
+          - "Why diversity in [industry] is your strongest competitive advantage"
+          - "In 5 years, [metric] will be obsolete—here's why"
+          - "The real cost of ignoring sustainability in [industry]"
 
   tiktok:
     name: "TikTok"
@@ -132,6 +222,14 @@ networks:
           - "This trend but make it [niche/industry]"
           - "Rating [category] as someone who [expertise]"
           - "Things that just make sense"
+          - "I tried [challenge] so you don't have to"
+          - "Things TikTok made me buy: [item]"
+          - "Wait for it... [surprise]"
+          - "Can we make this go viral? [challenge]"
+          - "If you know, you know: [inside joke]"
+          - "Duet this if you agree"
+          - "POV: It's 3 AM and [situation]"
+          - "Stitch this with your version of [prompt]"
       
       educational:
         name: "Educational Content"
@@ -141,6 +239,14 @@ networks:
           - "Red flags in [industry/situation]"
           - "How to [skill/task] like a pro"
           - "The [topic] iceberg explained"
+          - "Quick tip: Do this before [task]"
+          - "3 hacks to instantly improve your [skill]"
+          - "Stop doing this with [topic]"
+          - "Beginner vs. Pro: [task]"
+          - "Myths about [topic] debunked"
+          - "No one talks about this part of [process]"
+          - "Level up your [skill] in 60 seconds"
+          - "Save this for later when you need [guide]"
       
       entertainment:
         name: "Entertainment"
@@ -150,6 +256,14 @@ networks:
           - "Me explaining [topic] to my [audience]"
           - "The evolution of [trend/topic]"
           - "Reacting to [content/situation]"
+          - "Tell me you're over 30 without telling me you're over 30"
+          - "Things that keep me up at night"
+          - "When your [pet] has more attitude than you"
+          - "Can't believe this happened at [place]"
+          - "The most chaotic [situation] you'll see today"
+          - "If [movie] characters used TikTok"
+          - "Expectation vs. Reality: [scenario]"
+          - "POV: You just [event]"
       
       behind_scenes:
         name: "Behind the Scenes"
@@ -159,6 +273,14 @@ networks:
           - "The process behind [product/service]"
           - "Building [project] from scratch"
           - "What nobody tells you about [career/situation]"
+          - "Packing orders with me at 2 AM"
+          - "How we film our TikToks"
+          - "Budget vs. final result"
+          - "All the mistakes before the perfect shot"
+          - "Here's what a launch day looks like"
+          - "Unfiltered truth about startup life"
+          - "Tools I use to get things done"
+          - "From concept to delivery in 30 seconds"
 
   youtube:
     name: "YouTube"
@@ -171,7 +293,15 @@ networks:
           - "Step-by-step: [process/project]"
           - "[Topic] tutorial that actually works"
           - "Master [skill] with this simple method"
-      
+          - "Zero-to-hero: Learn [skill] from scratch"
+          - "Top 5 mistakes to avoid when learning [topic]"
+          - "Build [project] with me in real time"
+          - "Crash course: [topic] in under 30 minutes"
+          - "You’re doing [task] wrong—do this instead"
+          - "Advanced tips that pros use for [skill]"
+          - "From hobby to pro: monetizing your [skill]"
+          - "Common pitfalls in [process] and how to fix them"
+
       review:
         name: "Review Content"
         hooks:
@@ -180,7 +310,15 @@ networks:
           - "Comparing [option A] vs [option B]"
           - "Testing [product/method] so you don't have to"
           - "The truth about [topic/product]"
-      
+          - "Unboxing and first impressions: [product]"
+          - "[Product] after 100 days—still good?"
+          - "Budget vs. premium: which [item] wins?"
+          - "Top 10 features I love (and hate) about [product]"
+          - "Real-world test: [product] in extreme conditions"
+          - "Hidden costs of owning [product]"
+          - "Ranking the best [category] of [year]"
+          - "What reviewers aren’t telling you about [product]"
+
       vlog:
         name: "Vlog Content"
         hooks:
@@ -189,7 +327,15 @@ networks:
           - "Following [trend/challenge] for [timeframe]"
           - "The journey to [goal/achievement]"
           - "Documenting my [project/transformation]"
-      
+          - "Behind the scenes of launching [project]"
+          - "Day 1 of building my startup—come along"
+          - "Unexpected challenges during [activity]"
+          - "Travel vlog: 48 hours in [location]"
+          - "Budget breakdown: how much I spent on [trip/project]"
+          - "Facing my biggest fear: [challenge]"
+          - "Q&A while I [activity]"
+          - "End-of-month recap: wins & fails"
+
       entertainment:
         name: "Entertainment"
         hooks:
@@ -198,6 +344,14 @@ networks:
           - "Trying [activity/challenge] for the first time"
           - "Guess the [category] challenge"
           - "The most [adjective] [topic] compilation"
+          - "Speedrunning [game/task] with zero prep"
+          - "Can I beat [challenge] before the timer ends?"
+          - "Mixing every flavor of [item] together—disaster?"
+          - "Ultimate prank on my [friend/sibling]"
+          - "Voice-over drama: narrating random clips"
+          - "Turning [mundane task] into a cinematic trailer"
+          - "If [movie/series] were set in [unexpected setting]"
+          - "Making a song using only [random objects]"
 
 categories:
   global:
