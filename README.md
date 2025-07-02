@@ -194,6 +194,21 @@ npm run lint:fix
 
 ## Contributing
 
+### Content Updates
+
+Content is stored in the `src/content` directory.
+You can easily update this content directly on Github by navigating to the file you want to update and clicking the edit button.
+You can then make your changes and submit a pull request.
+We will review the changes and merge them into the main branch.
+Once the changes are merged, you (and everyone else) will be able benefit from your contributions!
+
+- Copywriting Frameworks: https://github.com/synthetic-ci/vibe-marketing/tree/main/src/content/copywriting
+- Social Media Hooks: https://github.com/synthetic-ci/vibe-marketing/blob/main/src/content/hooks/social-media-hooks.yml
+- List of Phrases to Avoid: https://github.com/synthetic-ci/vibe-marketing/blob/main/src/content/humanizing/doNotuse.yml
+- KOL Archetypes: https://github.com/synthetic-ci/vibe-marketing/blob/main/src/content/voicing/archetypes.yml
+
+### Dev Updates
+
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
