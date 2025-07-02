@@ -1,34 +1,101 @@
 # 🎯 Vibe Marketing MCP
-![Test and Deploy](https://github.com/synthetic-ci/vibe-marketing/actions/workflows/deploy.yml/badge.svg)
-[![Tests](https://img.shields.io/badge/tests-181%20passing-brightgreen)](https://github.com/normand1/vibe-marketing/tree/main/src)
+[![Tests](https://img.shields.io/badge/tests-181%20passing-brightgreen)](https://github.com/synthetic-ci/vibe-marketing)
+[![smithery badge](https://smithery.ai/badge/@synthetic-ci/vibe-marketing)](https://smithery.ai/server/@synthetic-ci/vibe-marketing)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-A **Model Context Protocol (MCP) server** designed for AI-powered marketing and social media content creation. This Cloudflare Worker-based service provides tools, templates, and frameworks to help create engaging content across multiple social media platforms.
-
 ![Vibe Marketing Logo](readme-assets/vibe-marketing-logo.jpeg)
 ![Vibe Marketing Demo](readme-assets/trending.gif)
 
+
+This Vibe Marketing MCP server is a fully open source compilation of the best Hooks, Copywriting Frameworks, and Influencer Archetypes for marketing and social media content creation.
+Use this server with the most popular AI Clients like [Claude](https://claude.ai), [Claude Code](https://www.anthropic.com/claude-code), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Cursor](https://www.cursor.com) and many more!
+
+## 🔗 Installation
+
+You can easily install this server from smithery.ai by navigating to the Vibe Marketing [server page](https://smithery.ai/server/@synthetic-ci/vibe-marketing) and following the Connect instructions for your client.
+![Smithery Connect](readme-assets/smithery-connect.png)
+
+## Why use this server?
+
+### 🤖 AI Content Sucks, But You Can Fix It!
+
+AI is notoriously bad at writing content, but with the right prompts and tools you can make big improvements and humanize your content. Too often the best hooks, copywriting frameworks and humanization hacks are locked away by gatekeepers asking you to like, subscribe and retweet only to discover another paywall. This server is a single place that anyone can contribute so we can all benefit and grow together. We welcome pull requests and contributions from the community and have made it [very easy for anyone to contribute](/#contributing).
+
+### 🔥 Live Updates
+
+Unlike LLMs which have a training cut-off the information in this server is updated in real time. This means you can use this server to discover the latest trends in real time.
+In addition to trends which are updated automatically, when new contributions are made to the server, you will be able to use the latest and greatest content in your AI client immediately! This means the latest hooks, copywriting frameworks and humanization hacks and more are always available to you and always up to date.
+
+### 🎯 Platform Specific Content
+
+Each social network has it's own unique style, tone and content formatting hacks that can get the most from your content.
+Using this MCP server your AI client will get instant access to this information and will be able to adapt your content to each platform easily.
+
+### 🚀 Supercharged Content Creation
+
+Because this server integrates with the most popular AI clients, you can use it to supercharge your content creation without even thinking about it. 
+Your AI client will use this server to improve your content by default and call tools by itself without you having to do anything! 
+
 ## 📖 Usage Examples
 
+### 🪝 Find Proven Hooks
+Prompt:
+> I want to write a post for [social network] about the latest marketing hack I discovered, what's a good hook for this?
 
-## ✨ Features
+Outcome:
+- invokes the `find-hooks` tool
+- Your AI client will find the best hook for the post and structure the post for you.
+
+### 📝 Find Proven Copywriting Frameworks
+Prompt:
+> Please find the best copywriting framework for [social network] about the latest marketing hack I discovered:
+> (Optionally: provide the specific framework if you have one in mind.)
+
+Outcome:
+- invokes the `list-copywriting-frameworks` tool
+- Your AI client will find the best copywriting framework for the post and structure the post for you.
+
+### 🎯 What's trending?
+Prompt:
+> What's trending on [social network]?
+
+Outcome:
+- invokes the `get-trending-content` tool
+- (Please note: this is the one tool that requires a HyperFeed.ai account on to use, you can signup for a free account here: [HyperFeed.ai](https://hyperfeed.ai))
+- Your AI Client will pull this into context so you can use it to structure your post based on topics that are already trending.
+
+### 💁‍♀️ Humanize Your Content
+Prompt:
+> Please humanize this content
+
+Outcome:
+- invokes the `flag-problematic-phrases` tool
+- Your AI Client will flag potentially problematic phrases in the content for you and follow the latest best practices and guidelines for your social network.
+
+### 🪄 Optimize Your Content
+Prompt:
+> Please validate the content before the fold for [social network]
+
+Outcome:
+- invokes the `validate-content-before-fold` tool
+- Your AI Client will use the tool to validate that the content will be formatted correctly to the before the fold character limit for the social network.
+- If this is a long post then the tool will have the correct rules for optimizing the content for the before the fold character limit.
+
+## ✨ All Features
 
 ### 🔍 Social Media Hook Discovery
 - **Find hooks by network**: Get platform-specific hooks for Twitter, Instagram, LinkedIn, TikTok, YouTube, and Facebook
 - **Category-based search**: Find hooks by engagement type (educational, promotional, storytelling, etc.)
-- **Smart filtering**: Limit results and find the most relevant hooks for your content
 
 ### 📝 Copywriting Frameworks
 - **Platform-specific frameworks**: Tailored copywriting templates for each social media platform
 - **Multiple frameworks per platform**: Choose from various proven copywriting structures
-- **Brand archetype integration**: Align your content with specific brand personalities
 
 ### 🎭 KOL Archetypes
-- **12+ KOL archetypes**: From "The Hero" to "The Sage" - find the perfect KOL voice
+- **12+ KOL archetypes**: From "The Hero" to "The Sage" - give your content some flair based on the archetype you choose.
 - **Detailed descriptions**: Comprehensive archetype profiles with characteristics and messaging guidelines
-- **Content alignment**: Ensure your copy matches your personality
 
 ### 🚫 Content Validation
 - **Problematic phrase detection**: Automatically flag potentially problematic language
@@ -39,11 +106,6 @@ A **Model Context Protocol (MCP) server** designed for AI-powered marketing and 
 - **Real-time trends**: Access trending topics and content ideas
 - **Platform-specific trends**: Get trends tailored to specific social media networks
 - **Content inspiration**: Generate ideas based on what's currently popular
-
-## 🚀 Quick Start
-
-
-**Manual deployment** is also available via the "Actions" tab in your GitHub repository.
 
 ## 🛠️ Available Tools
 
@@ -83,13 +145,12 @@ The MCP server provides access to curated resources:
 - **YouTube** - Long-form, educational content optimization
 - **Facebook** - Community-building and engagement-focused content
 
-
 # Contributing Dev Updates
 
 ### Prerequisites
-- Node.js 18+  
+- Node.js 20+  
 - pnpm package manager
-- Cloudflare account (for deployment)
+- Docker for testing before deployment
 
 ### Installation
 
@@ -101,48 +162,14 @@ The MCP server provides access to curated resources:
 
 2. **Install dependencies**
    ```bash
-   pnpm install
+   npm install
    ```
 
 3. **Development**
    ```bash
    # Start development server
-   pnpm dev
-   
-   # Run tests
-   pnpm test
-   
-   # Type checking
-   pnpm type-check
+   npm run dev
    ```
-
-4. **Deploy to Cloudflare Workers**
-   ```bash
-   pnpm deploy
-   ```
-
-## 🚀 Automated Deployment
-
-This project includes GitHub Actions for automatic deployment to Cloudflare Workers when PRs are merged to the `main` branch.
-
-### Setup GitHub Secrets
-
-To enable automatic deployment, add the following secrets to your GitHub repository:
-
-1. Go to your repository settings → Secrets and variables → Actions
-2. Add the following repository secrets:
-
-| Secret Name | Description | How to Get |
-|-------------|-------------|------------|
-| `CLOUDFLARE_API_TOKEN` | Your Cloudflare API token with Workers deployment permissions | [Create API Token](https://dash.cloudflare.com/profile/api-tokens) with "Custom token" → Permissions: `Zone:Zone:Read`, `Account:Cloudflare Workers:Edit` |
-| `CLOUDFLARE_ACCOUNT_ID` | Your Cloudflare Account ID | Found in the right sidebar of your [Cloudflare dashboard](https://dash.cloudflare.com/) |
-
-### Deployment Workflow
-
-The GitHub Action will automatically:
-- ✅ Run tests
-- 🔧 Install dependencies  
-- 🚀 Deploy to Cloudflare Workers
 
 ## 🧪 Testing
 
@@ -150,13 +177,7 @@ Run the comprehensive test suite:
 
 ```bash
 # Run all tests
-pnpm test
-
-# Run tests with UI
-pnpm test:ui
-
-# Run tests once
-pnpm test:run
+npm run test
 ```
 
 ## 🛡️ Code Quality
@@ -164,42 +185,22 @@ pnpm test:run
 This project uses Biome for linting and formatting:
 
 ```bash
-# Format code
-pnpm format
-
 # Lint code
-pnpm lint
+npm run lint
 
 # Fix linting issues
-pnpm lint:fix
+npm run lint:fix
 ```
 
-## 📁 Project Structure
-
-```
-src/
-├── content/          # Content templates and data
-│   ├── copywriting/  # Platform-specific copywriting frameworks
-│   ├── hooks/        # Social media hooks database
-│   ├── humanizing/   # Content humanization rules
-│   └── voicing/      # Brand archetype definitions
-├── formatters/       # Data formatting utilities
-├── prompts/          # AI prompt templates
-├── resources/        # MCP resources (hooks, phrases to avoid)
-├── services/         # Business logic services
-├── tools/            # MCP tool implementations
-└── types/            # TypeScript type definitions
-```
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
-4. Run tests (`pnpm test`)
+4. Run tests (`npm run test`)
 5. Commit your changes (`git commit -m 'Add amazing feature'`)
 6. Push to the branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
+7. Open a Pull Request!
 
 ## 📄 License
 
@@ -208,19 +209,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Related Projects
 
 - [Model Context Protocol](https://github.com/modelcontextprotocol) - The protocol this server implements
-- [Cloudflare Workers](https://workers.cloudflare.com/) - The serverless platform powering this service
 
 ## 📧 Support
 
 If you have questions or need help:
 
-1. Check the [Issues](https://github.com/<your-username>/vibe-marketing-mcp/issues) page
+1. Check the [Issues](https://github.com/synthetic-ci/vibe-marketing/issues) page
 2. Create a new issue if your question isn't answered
-3. For urgent matters, reach out to the maintainers
+3. For urgent matters, reach out to the maintainers at [dav@hyperfeed.ai](mailto:dav@hyperfeed.ai)
 
 ---
 
-**Built with ❤️ for creators, by HyperFeed.ai**
+**Built with ❤️ for creators, by [HyperFeed.ai](https://hyperfeed.ai)**
 
 ## Contributors ✨
 
