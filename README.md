@@ -38,6 +38,8 @@ Using this MCP server your AI client will get instant access to this information
 Because this server integrates with the most popular AI clients, you can use it to supercharge your content creation without even thinking about it. 
 Your AI client will use this server to improve your content by default and call tools by itself without you having to do anything! 
 
+[![Sponsored By HyperFeed.ai](readme-assets/sponsored-by-hyperfeed.gif)](https://hyperfeed.ai)
+
 ## 📖 Usage Examples
 
 ### 🪝 Find Proven Hooks
