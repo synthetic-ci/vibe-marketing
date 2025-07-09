@@ -15,7 +15,6 @@ Use this server with the most popular AI Clients like [Claude](https://claude.ai
 ## 🔗 Installation
 
 You can easily install this server from smithery.ai by navigating to the Vibe Marketing [server page](https://smithery.ai/server/@synthetic-ci/vibe-marketing) and following the Connect instructions for your client.
-![Smithery Connect](readme-assets/smithery-connect.png)
 
 ## Why use this server?
 
